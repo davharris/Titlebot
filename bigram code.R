@@ -41,19 +41,4 @@ for(i in 1:length(split_titles)){
 }
 
 writeMM(m, "ML_bigram_transitions.mtx")
-
-indices = integer(100)
-indices[1] = 1
-for(i in 2:length(indices)){
-    indices[i] = sample.int(
-      length(word_list),
-      size = 1,
-      prob = m[indices[i - 1], ]
-    )
-    if(word_list[indices[i]] == "END"){
-      indices[i] = 0
-      break
-  }
-}
-out = paste(word_list[indices[-1]], collapse = " ")
-
+write(word_list, "word_list.txt")
