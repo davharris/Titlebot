@@ -1,7 +1,7 @@
 library(stringr)
 library(Matrix)
 
-raw_titles = readLines("data/StatMLTitles.txt")
+raw_titles = readLines("data/plos_ecology.txt")
 
 # make everything lowercase; drop quote marks
 titles = gsub("\"", "", tolower(raw_titles))
