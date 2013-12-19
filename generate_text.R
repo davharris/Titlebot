@@ -1,3 +1,4 @@
+library(Matrix)
 max_length = 140
 n_candidates = 20
 
