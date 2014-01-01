@@ -16,9 +16,7 @@ generate_raw = function(transition_matrix, word_list, max_words){
 }
 
 generate_title = function(
-  transition_matrix, 
-  word_list, 
-  length_distribution,
+  bigram,
   n_candidates = 20, 
   max_length = 140,
   max_words = 100
@@ -26,8 +24,8 @@ generate_title = function(
   candidates = replicate(
     n_candidates, 
     generate_raw(
-      transition_matrix = transition_matrix, 
-      word_list = word_list,
+      transition_matrix = bigram$transition_matrix, 
+      word_list = bigram$word_list,
       max_words = max_words
     )
   )
@@ -38,6 +36,6 @@ generate_title = function(
   sample(
     valid_candidates,
     1,
-    prob = length_distribution[nchar(valid_candidates)]
+    prob = bigram$length_distribution[nchar(valid_candidates)]
   )
 }
