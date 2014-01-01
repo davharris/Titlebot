@@ -12,5 +12,8 @@ length_distribution = scan(
 generate_title(
   word_list = word_list, 
   transition_matrix = m, 
-  length_distribution = length_distribution
+  length_distribution = length_distribution,
+  n_candidates = 20, 
+  max_length = 140,
+  max_words = 100
 )
