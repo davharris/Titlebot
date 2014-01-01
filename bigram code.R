@@ -1,7 +1,11 @@
 library(stringr)
 library(Matrix)
 
-raw_titles = readLines("data/StatMLTitles.txt")
+# File name without the directory name and without the .txt at the end
+# e.g. StatMLTitles if the title file exists in data/StatMLTitles.txt
+data_filename = "StatMLTitles"
+
+raw_titles = readLines(paste0("data/", data_filename, ".txt"))
 
 # make everything lowercase; drop quote marks
 titles = gsub("\"", "", tolower(raw_titles))
@@ -40,5 +44,15 @@ for(i in 1:length(split_titles)){
   }
 }
 
-writeMM(m, "ML_bigram_transitions.mtx")
-write(word_list, "word_list.txt")
+# Probability distribution over title lengths
+observed_lengths = nchar(titles)
+length_distribution = integer(max(observed_lengths))
+for(i in 1:length(length_distribution)){
+  length_distribution[i] = sum(observed_lengths == i)
+}
+
+
+dir.create(data_filename, showWarnings = FALSE)
+writeMM(m, paste0(data_filename, "/bigram_transitions.mtx"))
+write(word_list, paste0(data_filename, "/word_list.txt"))
+write(length_distribution, paste0(data_filename, "/length_distribution.txt"))
