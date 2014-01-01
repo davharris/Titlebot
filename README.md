@@ -1,8 +1,10 @@
-ML_Titles
+Titlebot
 =========
 
-I string words together from the titles of machine learning papers on ArXiv (http://arxiv.org/list/stat.ML/recent).
+I string words together from the titles of scientific papers.
 
-The titles in the "data" folder were scraped by Philippe (@PhDP) and are available under a Creative Commons Share Alike license (some of them are CC-BY).
+The machine learning titles in the "data" folder were scraped by Philippe (@PhDP) from ArXiv and are available under a Creative Commons Share Alike license (some of them are CC-BY).
 
-The transition matrix is in a [standard format](http://math.nist.gov/MatrixMarket/formats.html#MMformat) as exported by `Matrix::writeMM`.
+The ecology titles were scraped from PLoS journals using `[rplos](https://github.com/ropensci/rplos)`. These titles are all CC-BY.
+
+The transition matrices are in a [standard format](http://math.nist.gov/MatrixMarket/formats.html#MMformat) as exported by `Matrix::writeMM`.
