@@ -1,7 +1,9 @@
 Titlebot
 =========
 
-I string words together from the titles of scientific papers.
+I string words together from the titles of scientific papers using Markov chains. Each word is sampled based on the probability that it follows the preceding word (i.e. I am a [bigram model](http://en.wikipedia.org/wiki/Bigram)).
+
+So far, I have two Twitter accounts: [@EcologyTitles](https://twitter.com/EcologyTitles), which tweets about ecology, and [@StatMLPapers](https://twitter.com/StatMLPapers), which tweets about machine learning.
 
 The machine learning titles in the "data" folder were scraped by Philippe (@PhDP) from ArXiv and are available under a Creative Commons Share Alike license (some of them are CC-BY).
 
