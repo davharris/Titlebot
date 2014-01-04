@@ -16,29 +16,19 @@ The transition matrices are in a [standard format](http://math.nist.gov/MatrixMa
 Examples
 ========
 
-
-
+```{r load_all, echo = FALSE, message = FALSE}
+devtools::load_all()
+set.seed(1)
+```
 
 ### Ecology:
-
-```r
+```{r example1}
 ecology_bigram = load_bigram("plos_ecology")
 generate_title(bigram = ecology_bigram)
 ```
 
-```
-## [1] "demographic and electric field collected aedes aegypti and arsenic alters the fire in a virus"
-```
-
-
 ### Machine learning:
-
-```r
+```{r example2}
 ML_bigram = load_bigram("StatMLTitles")
 generate_title(bigram = ML_bigram)
 ```
-
-```
-## [1] "predicting parameters from compressive samples"
-```
-
