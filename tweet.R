@@ -5,6 +5,12 @@
 devtools::load_all()
 library(twitteR)
 
+# A simple function to titleize R strings (there's probably a cleaner way to do this).
+titleize = function(title) {
+  substr(title, 1, 1) = toupper(substr(title, 1, 1))
+  return(title)
+}
+
 # Ecology -----------------------------------------------------------------
 ecology_bigram = load_bigram("plos_ecology")
 title = generate_title(
@@ -13,6 +19,7 @@ title = generate_title(
   max_length = 140,
   max_words = 100
 )
+title = titleize(title)
 title
 
 
@@ -31,10 +38,11 @@ title = generate_title(
   max_length = 140,
   max_words = 100
 )
+title = titleize(title)
 title
 
 
 load("ML_titles-auth.Rdata") # object is named `auth`
 if(registerTwitterOAuth(auth)){
-  tweet(title)
+  tweet(titleize(title))
 }
