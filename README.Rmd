@@ -13,6 +13,20 @@ The code is available under The Artistic License 2.0 (see `LICENSE`).
 
 The transition matrices are in a [standard format](http://math.nist.gov/MatrixMarket/formats.html#MMformat) as exported by `Matrix::writeMM`.
 
+Praise for Titlebot:
+====================
+
+* "[an excellent example for why "no one has ever studied X" is not a sufficient reason to do a study!](https://twitter.com/duffy_ma/status/419629166787436546)"
+
+* "[a good place to hunt for inspiring project ideas](https://twitter.com/noamross/status/419629657965617152)"
+
+* "[That could be the title of the grant we just submitted](https://twitter.com/noamross/status/417781836626935808)"
+
+* "[That sounds delicious](https://twitter.com/kara_woo/status/417781958476054528)"
+
+* "[I actually would like to read this one. Would you mind writing it?](https://twitter.com/_NickGolding_/status/414848962164953088)"
+
+
 Examples
 ========
 
@@ -32,4 +46,3 @@ replicate(5, generate_title(bigram = ML_bigram))
 ecology_bigram = load_bigram("plos_ecology")
 replicate(5, generate_title(bigram = ecology_bigram))
 ```
-
