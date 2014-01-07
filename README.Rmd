@@ -16,6 +16,8 @@ The transition matrices are in a [standard format](http://math.nist.gov/MatrixMa
 Praise for Titlebot:
 ====================
 
+* "[This is exactly what I need to finish my PhD.](http://www.reddit.com/r/MachineLearning/comments/1ukbo5/tightening_mrf_relaxations_really_solve_sparse/cej8yel)
+
 * "[an excellent example for why "no one has ever studied X" is not a sufficient reason to do a study!](https://twitter.com/duffy_ma/status/419629166787436546)"
 
 * "[a good place to hunt for inspiring project ideas](https://twitter.com/noamross/status/419629657965617152)"
