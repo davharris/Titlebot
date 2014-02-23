@@ -1,12 +1,13 @@
 Titlebot
 =========
 
-I string words together from the titles of scientific papers using Markov chains. Each word is sampled based on the probability that it follows the preceding word (i.e. I am a [bigram model](http://en.wikipedia.org/wiki/Bigram)).
+I string words together from the titles of scientific papers (and now tweets!) using Markov chains. Each word is sampled based on the probability that it follows the preceding word (i.e. I am a [bigram model](http://en.wikipedia.org/wiki/Bigram)).
 
 So far, I have three Twitter accounts: 
 * [@EcologyTitles](https://twitter.com/EcologyTitles)tweets about ecology
 * [@ML_Titles](https://twitter.com/ML_Titles) tweets about machine learning.
 * [@AnswersInMarkov](https://twitter.com/AnswersInMarkov) tweets about "creation science"
+* [@HarrisBot](https://twitter.com/HarrisBot) will destroy you all.
 
 In general, the machine learning titles are harder to distinguish from real titles, but the ecology titles can be much funnier (see below).  Real "Creation science" is indistinguishable for Markov chain output.
 
@@ -15,6 +16,8 @@ The machine learning titles in the "data" folder were scraped by Philippe (@PhDP
 The ecology titles were scraped from PLOS journals using [rplos](https://github.com/ropensci/rplos). These titles are all CC-BY.
 
 The Answers titles are copyrighted by Answers In Genesis. Their inclusion and transformation is not an infringement of copyright in the United States, however, as they are covered by the fair use doctrine. 
+
+The HarrisBot data are [@davidjayharrs](https://twitter.com/davidjayharris)'s tweets, minus retweets.
 
 The code is available under The Artistic License 2.0 (see `LICENSE`).
 
@@ -50,11 +53,11 @@ replicate(5, generate_title(bigram = ML_bigram))
 ```
 
 ```
-## [1] "sparsityboost: a spatially-informed fused lasso"        
-## [2] "joint ofdm system based estimation in graphs"           
-## [3] "random graph clustering hidden markov networks"         
-## [4] "efficient density estimation with a subspace clustering"
-## [5] "multiple gaussian multi-armed bandit problems"
+## [1] "online linear programming using sparse graphical structures in genomics"
+## [2] "flexible sampling for non-additive model selection in undirected models"
+## [3] "infinite degree corrected kriging update rules"                         
+## [4] "generalized canonical dual active collaborative competitive filtering"  
+## [5] "evolutionary design of kernel induced random matrices"
 ```
 
 
@@ -67,14 +70,14 @@ replicate(5, generate_title(bigram = ecology_bigram))
 
 ```
 ## [1] "ecotype differentiation among genera (stemonitales, myxomycetes, amoebozoa) suggests a northern china"                             
-## [2] "a fixed motor boat noise affects larval tolerance of tiger (panthera uncia) in daphnia magna"                                      
-## [3] "genetic affinities of the dynamical implications"                                                                                  
+## [2] "can occur everywhere? an apo-14 promoter-driven transgenic poplars (populus balsamifera)"                                          
+## [3] "nitrogen use of america 500 year-old inca mummy"                                                                                   
 ## [4] "influence functional dynamics in southern water temperature, viral diseases phenotype, parasite toxoplasma gondii cysts based prey"
 ## [5] "rapid assessment of domestic dispersal ability of an evolutionary biology"
 ```
 
 
-### Ecology:
+### Answers Research Journal:
 
 ```r
 answers_bigram = load_bigram("Answers_Research_Journal")
@@ -82,10 +85,26 @@ replicate(5, generate_title(bigram = answers_bigram))
 ```
 
 ```
-## [1] "the tower of alaska low, and numbering amphibian kinds"                                          
-## [2] "genome-wide dna sequences queried against the earth"                                             
-## [3] "a warm ocean: deep upper low and philosophical response to the chronology and human and mcdurmon"
-## [4] "is the tower of adam from the human genome is young-earth creationism"                           
-## [5] "is there a proposal for creationist cosmology"
+## [1] "what sense except in crisis"                                                        
+## [2] "genome-wide dna sequences queried against the earth"                                
+## [3] "mammalian ark kinds on genesis and is dangerous"                                    
+## [4] "is there a further examination of coat color ii"                                    
+## [5] "karyotype variability within the light of humans and wood in the dodwell hypothesis"
+```
+
+
+### davidjayharris
+
+```r
+answers_bigram = load_bigram("davidjayharris")
+replicate(5, generate_title(bigram = answers_bigram))
+```
+
+```
+## [1] "@phdpqc i tried to matrix-based vector calculus?"                                                   
+## [2] "@_nickgolding_ @ethanwhite @bendmorris @ethanwhite even use hashes? cc license without regulation." 
+## [3] "@cboettig @_nickgolding_ @bobohara @ucfagls if they also had an iphone person in another context."  
+## [4] "@bobohara @ucfagls @noamross @quantecologyabc if they meant @accidental__art just spouting bigrams?"
+## [5] "@_nickgolding_ if there's a good point. being net really problematic"
 ```
 
