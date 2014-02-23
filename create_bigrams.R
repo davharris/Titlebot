@@ -1,9 +1,10 @@
+library(mgcv)
 library(stringr)
 library(Matrix)
 
 # File name without the directory name and without the .txt at the end
 # e.g. StatMLTitles if the title file exists in data/StatMLTitles.txt
-data_filename = "StatMLTitles"
+data_filename = "plos_ecology"
 
 raw_titles = readLines(paste0("data/", data_filename, ".txt"))
 
@@ -51,8 +52,15 @@ for(i in 1:length(length_distribution)){
   length_distribution[i] = sum(observed_lengths == i)
 }
 
+sequence = 1:max(nchar(titles))
+smoothed_length_distribution = predict(
+  gam(length_distribution ~ s(sequence), family = poisson),
+  type = "response"
+)
+
+
 
 dir.create(data_filename, showWarnings = FALSE)
 writeMM(m, paste0(data_filename, "/bigram_transitions.mtx"))
 write(word_list, paste0(data_filename, "/word_list.txt"))
-write(length_distribution, paste0(data_filename, "/length_distribution.txt"))
+write(smoothed_length_distribution, paste0(data_filename, "/length_distribution.txt"))
