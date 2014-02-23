@@ -46,3 +46,22 @@ load("ML_titles-auth.Rdata") # object is named `auth`
 if(registerTwitterOAuth(auth)){
   tweet(titleize(title))
 }
+
+
+# "Creation Science" --------------------------------------------------------
+
+answers_bigram = load_bigram("Answers_Research_Journal")
+title = generate_title(
+  bigram = answers_bigram,
+  n_candidates = 20, 
+  max_length = 140,
+  max_words = 100
+)
+title = titleize(title)
+title
+
+
+load("Answers-auth.Rdata") # object is named `auth`
+if(registerTwitterOAuth(auth)){
+  tweet(titleize(title))
+}
