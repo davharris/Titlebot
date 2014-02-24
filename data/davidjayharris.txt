@@ -1,6 +1,21 @@
+@kara_woo consider sanitizing the results a bit by wrapping your tweet in `unmention` and in `fix_and`.  Enjoy!
+@kara_woo 
+pull, then:
+devtools::load_all()
+woo_bigram = load_bigram("kara_woo")
+generate_title(bigram = woo_bigram)
+@kara_woo @HarrisBot Would you like one too?
+@kara_woo @HarrisBot context: 1)  2)
+@tylerrinker @recology_ ok, thanks. I’ll check it out.
+@tylerrinker @recology_ do either of you know of a good part-of-speech tagging package that doesn't require java? Thanks
+@vsbuffalo Sounds good.  Mid-week is probably best for me. Enjoy writing
+@vsbuffalo have a Skype meeting at 6. Think we can squeeze in or should we try another time?
+@HarrisBot @noamross  thanks for the thought. Maybe stop tweeting until we figure out how to keep it from spamming people with @-mentions?
 @vsbuffalo How does tomorrow sound?
 @noamross For example, I have no idea why the last tweet ended with "the".  I don't seem to get that problem with the other titlebots.
-@noamross titles of articles from their research "journal."  Very small corpus, so some odd behaviors. Still fun :-)
+@noamross titles of articles from their research "journal."
+
+Very small corpus, so some odd behaviors. Still fun :-)
 @vsbuffalo along the lines of your favorite bison-related sentence:
 @mr_ino @mattmight what happens when the script sees this sentence?
 Hivemind: If an image is CC-By-ND, does that mean I can't even crop it?
@@ -11,7 +26,7 @@ This is good scientific coding advice as well. Bugs like this should terrify us.
 Titlebot is back! Prepare for more domain-specific nonsense from @EcologyTitles and @ML_Titles.  Code here:
 @ucfagls @recology_ ah, makes sense. Cool.
 @recology_ @ucfagls Ah, okay.  Good to know for next time.  Thanks again!
-Artistic-2.0 (like perl)
+@ucfagls @recology_ OK, thanks. Didn't want to cause problems, so just picked a different one. Ended up using GPL-2|Artistic-2.0 (like perl)
 Can anyone interpret this CRAN check NOTE?  "Components with restrictions and base license permitting such:   MIT + file LICENSE"
 @DistribEcology Markov chains, eg @EcologyTitles
 Such currency. Harvard supercomputing cluster hijacked to mine dogecoin. Wow.
@@ -78,7 +93,9 @@ This is exciting! MCMC on a budget. Like stochastic gradient descent, but for MC
 @michaelhoffman @hylopsar @dgmacarthur @algaebarnacle @jtleek good frequency properties too. Controlling false discovery rate is useful 2/2
 @michaelhoffman @hylopsar @dgmacarthur @algaebarnacle @jtleek saying "everyone wants posteriors" is too sweeping. Methods need ... 1/2
 @ZachWeiner @brianwolven 1 mole of water takes up 1.8 m^3 (based on density of 1). Should be able to calculate from that?
-@ZachWeiner @brianwolven Looks like it's the distance between H nucleus and O nucleus.   Is that what you wanted?
+@ZachWeiner @brianwolven Looks like it's the distance between H nucleus and O nucleus. 
+
+Is that what you wanted?
 @phdpqc err, forgot to link. Applies to both of these, actually.    thanks again for comments!
 @phdpqc on the positive side, I'm really happy with the methods in this file. All are short and have descriptive names. Feels very clean.
 @phdpqc ah, right. Maybe I was accidentally overwriting in another function and superstitiously made copies in this one, just to be safe &gt;.&lt;
@@ -140,7 +157,9 @@ Answers from @nceas working group participants to follow. 1/n
 @JeremyJBerg like phylo regression? Try @MRHelmus.
 @ethanwhite @cboettig @weecology @nceas anyone want to grab some dinner?
 @baffinfootwear Is this $49 for one liner or a *pair* of liners?
-Xkcd on "nice guys."  The hover text is just so delightfully cruel.
+Xkcd on "nice guys."
+
+The hover text is just so delightfully cruel.
 @DistribEcology Nature Methods, iirc. And they didn't pretend the technique was novel. The Shiny app *is* fairly slick. But yes.
 @larysar @ucfagls Thanks guys!
 @ucfagls This seems to give the same result I get from averaging R^2 across 14 bivariate linear models.
@@ -167,7 +186,9 @@ I have a 14-dimensional matrix and a 2D summary of it. How do I compute % varian
 @phdpqc have you seen this? Elsevier allows nomcommercial text mining via an API.  via @ethanwhite  @McDawg
 @hylopsar @mxwlj @djhocking one could argue that, but it can be a huge problem for MCMC mixing, depending on algorithm
 @djhocking @Graham_Coop @mxwlj (Section 3.6)
-@djhocking @Graham_Coop @mxwlj Here:   Only thin as much as needed to make storage/computation feasible w/ long runs.
+@djhocking @Graham_Coop @mxwlj Here: 
+
+Only thin as much as needed to make storage/computation feasible w/ long runs.
 @joelmcglothlin @coereba I ended up not going to UF's interview back in 2008 b/c I'd already visited 3 other schools before they invited me.
 @coereba @joelmcglothlin These dates sound pretty typical to me.
 @djhocking It's pretty typical, I think? If it bothers you, you might be able to address the issue by putting a weak prior on beta.
@@ -181,13 +202,16 @@ Obviously, this won't work if patent mentions optimization. And it could annoy t
 "This must be an obvious idea: a machine with a brain the size of a gnat came up with it on its own." 4/N
 "You can't prove we infringe unless you can explain to the jury which neurons implement which claims from your patent" 3/N
 Don't do the engineering yourself. Have a neural network do it. Seems to me like this could help on several fronts.  For example... 2/N
-Crazy idea for defending against an obvious software patents 1/N  (disclaimer: I'm this is not legal advice and is probably a terrible idea)
+Crazy idea for defending against an obvious software patents 1/N 
+(disclaimer: I'm this is not legal advice and is probably a terrible idea)
 @ucfagls Yeah. As I said, I do understand the reasoning. I'm sure Google did try to engineer around it and just couldn't. Sad.
 @ucfagls Worth noting b/c 3x damages for willfulness usually involves copying. I do understand reasoning for applying 3x here, but holy cow.
 @ucfagls AFAICT, *any* algorithm that used the obvious factors to affect ad placement (e.g. minimum bid, expected click rate) would infringe
 Google may have to pay a billion dollars in patent royalties for tech they didn't actually copy.
 @mickresearch Try to ensure that the all speakers use *the same* butterfly stories, like at my HS graduation and a week later at my gf's.
-Two cool new methods via @StatMLPapers:  * Stochastic quasi-Newton  * Tempering by Subsampling
+Two cool new methods via @StatMLPapers: 
+* Stochastic quasi-Newton 
+* Tempering by Subsampling
 @mickresearch Make sure to use at least one simile, one extended metaphor, and one analogy involving butterflies
 .@zentree At some point, ability to iterate &amp; learn can be hampered by waiting for #rstats analyses to actually run. 2/2 @hadleywickham
 .@zentree Being able to iterate quickly can be really important. This is the motivation for many of @hadleywickham's #Rstats projects. 1/2
@@ -291,7 +315,6 @@ I mostly like @kaleidoscopeapp for diffs, but it gets *deeply* confused when a f
 I won the #ASN2014 award for best student poster! See it on @figshare here:
 @noamross Friday or Monday would be better, I think. Need to catch up.
 @noamross @jaimedash @ucfagls do you need a global optimum? Might be NP-complete or something.
--
 @jennomics perfect! Are you free on Monday?
 Don't forget, you can still see the posters the afternoon coffee break at #ASN2014.  Or download mine from
 @ucfagls dunno, that could be the issue. Wasn't clear on a point a speaker was trying to make.
@@ -321,13 +344,18 @@ Final version of #ASN2014 poster: "Predicting species composition when environme
 @lizhmartin Thanks! @mickresearch
 @_NickGolding_ @BobOHara @mickresearch Thanks again for comments. BTW, updated poster to say "current *nonlinear* methods can't...."
 @Graham_Coop did you just thank yourself?
-@mickresearch Okay, no room  for extra figure, but do say this now:   # outside 95% CI (red/blue Xs) dropped from 50% to 10%.  Thanks again.
+@mickresearch Okay, no room  for extra figure, but do say this now: 
+
+# outside 95% CI (red/blue Xs) dropped from 50% to 10%.
+
+Thanks again.
 @BobOHara thanks again!
 @mickresearch @lizhmartin nothing comes to mind. Most papers don't even bother with CIs, so precision could be *anything*
 @mickresearch good point! I should print a copy of that graph and keep it on hand. My 95% CI has 90% of obs. Not ideal, but better than 47%
 @BobOHara Not much I can do about that at this point. I'll try to be more specific in the paper. Thanks again.
 @BobOHara "... could help inform researchers about biological mechanisms in systems where data and expert knowledge are scarce." Better? thx
-@ucfagls nothing spatial, unfortunately. Couldn't get good samples quickly last time I tried.  I just meant unit variance, zero covariances.
+@ucfagls nothing spatial, unfortunately. Couldn't get good samples quickly last time I tried. 
+I just meant unit variance, zero covariances.
 @BobOHara @MethodsEcolEvol Was leaning towards Ecological Applications for this one . What do you think?
 @_NickGolding_ heard someone mention it once, in passing. Really should learn Python...
 @_NickGolding_ Near the bottom of mine as well. GPs would be *great* but I'm happy with stochastic neural nets for now.  @BobOHara @cboettig
@@ -430,7 +458,9 @@ Wait a second, @ODNIgov.  This is *actually* your logo? 1984 wasn't supposed to 
 @ID_AA_Carmack doesn’t work, unfortunately. People can actually be harmed by things marketed as “homeopathic”.
 "phylogeny of human-induced evolutionary history affected by human nasal staphylococcus aureus, identified in soybeans" #RandomEcologyTitles
 "I didn't say women can't be taught to be hackers. I said YC can't do it in 3 months." 2/2
-Short version:  "We" doesn't refer to society; it refers to Y Combinator... [And "women" are] ... would-be founders who are not hackers. 1/2
+Short version:
+
+"We" doesn't refer to society; it refers to Y Combinator... [And "women" are] ... would-be founders who are not hackers. 1/2
 Here's what @paulg says about the "women haven't been programming since they were 10" scandal.
 @noamross Ah, yeah.  I think @github added my name to it automatically when I created the repo and selected a license.
 @noamross What?
@@ -515,10 +545,14 @@ Is anyone familiar with software for coding behavior from video data? Asking for
 @BobOHara @ucfagls @srsupp @BlasMBenito @InsectEcology could you clarify stationarity?
 @ucfagls I meant you could get 0.6
 @ucfagls actually can give novel Yhat: number of possible predictions from an RF can exceed num observed Y.
-@BobOHara @ucfagls @srsupp @BlasMBenito @InsectEcology I like GP approach:   Can specify prior, too which is nice.
+@BobOHara @ucfagls @srsupp @BlasMBenito @InsectEcology I like GP approach: 
+
+Can specify prior, too which is nice.
 @ucfagls if extrapolating, data never determine the outcome by definition. One rule is linear extrap; another is quadratic; this is flat
 @sjGoring @ucfagls @srsupp @BlasMBenito @InsectEcology I mean outside full range of X, predictions will stop changing as X increases.
-@ucfagls @srsupp @BlasMBenito @InsectEcology example tree: if x&gt;2, return .9; else return .4  Doesn't say anything about edges of data set
+@ucfagls @srsupp @BlasMBenito @InsectEcology example tree: if x&gt;2, return .9; else return .4
+
+Doesn't say anything about edges of data set
 @ucfagls @srsupp @BlasMBenito @InsectEcology just predict on a bigger value than found in data set. Prediction surface is flat
 @ucfagls @srsupp @BlasMBenito @InsectEcology I like Gaussian process approach: when far from data, increase uncertainty &amp; revert to prior.
 @ucfagls @srsupp @BlasMBenito @InsectEcology assuming linear (or worse, quadratic) can make extremely strong predictions *way* outside data
@@ -586,8 +620,13 @@ I'm really enjoying reading the reviews and rebuttals for @NipsConference:
 @sherrirose @hspter that already exists.
 @phdpqc I only saw minibatches referred to in passing and don't know enough about the methods in Table 1 to figure out where it fits.
 @phdpqc @StatMLPapers Looks interesting.  Any idea how it compares to minibatch SGD?
-She fell exhausted in the ditch Not knowing how to run.  2/2
-A centipede was happy – quite!  Until a toad in fun  Said, "Pray, which leg moves after which?" This raised her doubts to such a pitch,  1/2
+She fell exhausted in the ditch Not knowing how to run.
+
+2/2
+A centipede was happy – quite! 
+Until a toad in fun 
+Said, "Pray, which leg moves after which?" This raised her doubts to such a pitch, 
+1/2
 @ucfagls @recology_ @noamross @_inundata @ethanwhite I'm not wedded to testthat. Might be better to discuss on the issue page though?
 @recology_ @ucfagls @noamross @_inundata @ethanwhite Great idea.  I just created an issue for it:
 My dad just sent me this FW:RE:FW:new element discovered. Surprisingly well-written.
@@ -609,7 +648,9 @@ TIL why entropy is abbreviated with an "Η".  Hint: it wasn't originally an "H":
 @hspter It also seems to be working: the top four tweets in my timeline are about Amazon.
 @hspter Could just be a marketing stunt.  They aren't even pretending that it will be ready for a few years, &amp; tomorrow is Cyber Monday...
 @sarcozona I think I'm missing something. Abstract looks okay to me. Or are you saying 1/4 point on a 4-point scale isn't meaningful?
-@tjmahr @ucfagls @recology_ I'm always thankful for it when I need to join matrices/data.frames.  do.call(rbind, some_list_of_matrices)
+@tjmahr @ucfagls @recology_ I'm always thankful for it when I need to join matrices/data.frames.
+
+do.call(rbind, some_list_of_matrices)
 Evaluating likelihoods is really hard in big models. At least this suggests my approach is conservative.
 @CjBayesian ditto
 23 And Me is terrifying, but not for the reasons the FDA thinks
@@ -619,7 +660,9 @@ Please, @ESA_org: please let me decide how to cite you.  Don't hijack my compute
 Why does @ESA_org have this obnoxious javascript on every page? Do they think it will stop infringement? 1/2
 "if researchers do not feel a little queasy" about current options in Bayesian stats, "they are not paying sufficient attention"
 The reply is interesting reading as well:
-An actual paper title, via @cboettig: Are exercises like this a good use of anybody's time?   Worth a careful reading
+An actual paper title, via @cboettig: Are exercises like this a good use of anybody's time? 
+
+Worth a careful reading
 @johnmyleswhite often?
 @algaebarnacle Sorry!
 @algaebarnacle 23 times, if it is to fit in a tweet &amp; each pair of instances is separated by a space. 28 with no spaces. #nichenichneniche
@@ -680,7 +723,9 @@ Trial over. Plaintiff should have settled years ago. Wasted everyone's time and 
 @DistribEcology I know @jslefche has looked into different ways to do this sort of thing. Maybe he can send a link?
 Neat conversation about some contenders for greatest human intellectual achievement
 Watching @cnn is like having to click on all the headline-bait I skip over when browsing reddit.
-Watching @CNNAshleigh on @CNN during jury duty break.   It's like those books of weird facts I read as a kid, pretending to be for adults.
+Watching @CNNAshleigh on @CNN during jury duty break. 
+
+It's like those books of weird facts I read as a kid, pretending to be for adults.
 Going to jury duty tomorrow for the first time. Any tips?
 .@jessicablois @elitabaldridge worse, presence of A actually makes B less likely to occur when richness is fixed. Not independent! 5/4
 .@jessicablois @elitabaldridge creates weird conditional dependencies across sites (if a rare species occurs here, it CANNOT occur there)4/4
@@ -688,14 +733,18 @@ Going to jury duty tomorrow for the first time. Any tips?
 .@jessicablois @elitabaldridge you're interested in ANY other aspect of community assembly, I don't see why it's a reasonable null. 2/n
 .@jessicablois @elitabaldridge If C-scores are literally the only thing you care about, Gotelli has shown that it works. But if... 1/n
 .@jessicablois Gotelli's fixed-fixed null doesn't correspond to any known biological processes: nothing in nature does this fixing!
-@sarcozona Sorry :-(   You should definitely send me your snail mail address so I can send you cookies then. Let me know how else to help.
+@sarcozona Sorry :-( 
+
+You should definitely send me your snail mail address so I can send you cookies then. Let me know how else to help.
 @johnmyleswhite Absolutely. Or nearly fixed, anyway. But it's everywhere in #Rstats. Makes it hard to estimate how long things will take.
 Weird #Rstats "feature": vectorized functions only take 2x as long if you run them on 10x as many values: much less overhead per value
 #Rstats computational overhead often exceeds the amount of computation (in C/C++) that I actually need to do. But it still saves me dev time
 @wcwetzel @jaimedash ok, then I think you're good. I'll try to dig up a couple more references you may find useful.
 @jaimedash @wcwetzel In short, I'd run a quick test with random data that has big variation among species as a control.
 @jaimedash @wcwetzel similarity doesn't depends on a nonlinear function of prevalence, which I called p*. May be analogue in your case 2/2
-@jaimedash @wcwetzel might bias your results if there's enough variation in abundance among species.   In my paper, I showed that... 1/2
+@jaimedash @wcwetzel might bias your results if there's enough variation in abundance among species. 
+
+In my paper, I showed that... 1/2
 According to an email from my union, #UCDavis just canceled a bargaining session. Does the administration *want* us all to strike?
 @uaw2865 Do you know what percentage turned out?
 @kenlocey Congratulations on your success the other day!
@@ -707,7 +756,9 @@ AM RT: Sign up for a "Predictive Ecology" Ignite session at #ESA2014!
 @ecostats My paper gives very accurate version of the relationship you showed in Figure 2A, but for a different index (Jaccard).
 @ecostats Saw your preprint in Methods. Looks cool. You might be interested in a paper of mine on prevalence &amp; beta:
 @srsupp I was hoping we could come up with something as we went along.  Feel free to add a pull request with ideas:
-@scisus I know a former spider mouthpart gluer!  Very cool stuff.
+@scisus I know a former spider mouthpart gluer!
+
+Very cool stuff.
 I've started a repo for applying for an #ESA2014 Ignite session on Predictive Ecology. Help shape the application!
 @srsupp @dylan_childs @speciespluralis You showed interest in an Ignite session on predictive ecology. Sign up here:
 I'm proposing a Predictive Ecology Ignite session for @ESA_org #ESA2014. If you're interested, please sign up soon!
@@ -718,25 +769,38 @@ I'm proposing a Predictive Ecology Ignite session for @ESA_org #ESA2014. If you'
 @algaebarnacle @llthurman I haven't. List of invited speakers looks good. Don't think I can go to France for it though.
 What on earth am I supposed to do with this object that `by` spat out? Thanks God for @hadleywickham.
 plyr has problems on my machine (probably my fault), so I used `by` instead. Had forgotten what life was like before ddply! @hadleywickham
-@wcwetzel my paper is about presence-absence dissimilarity, but could probably extend to abundance.  Might be better to simulate, though.
+@wcwetzel my paper is about presence-absence dissimilarity, but could probably extend to abundance.
+
+Might be better to simulate, though.
 @mxwlj I think @MRHelmus will know
 @wcwetzel I have a mildly related paper if you're looking at beta with dissimilarity measures:
 @djhocking @QuantEcologyABC with 3 levels, I'd treat it as a fixed effect. Too little information on var. Dunno about half Cauchy in Jags.
-@kara_woo @hylopsar Follow-up:   and one of my all-time favorite papers:
+@kara_woo @hylopsar Follow-up:
+
+
+and one of my all-time favorite papers:
 @kara_woo @hylopsar No pun. Sorry.
 @hylopsar @kara_woo My all time favorite:
 @jebyrnes @QuantEcologyABC  is the closest thing I know of from @BobOHara's description. Might help guide your search.
 @QuantEcologyABC @jebyrnes if treatment &amp; control are both Gaussian, their ratio is Cauchy, right? Possibly relevant...
 @DamienFarine I think your twitter account was just hacked...
-@kara_woo That wasn't strong enough:  HELL_NO &lt;- (pi == 3) &amp; (2 + 2 == 5) &amp; (Inf &lt; 0) mydata &lt;- data.frame(..., stringsAsFactors = HELL_NO)
+@kara_woo That wasn't strong enough:
+
+HELL_NO &lt;- (pi == 3) &amp; (2 + 2 == 5) &amp; (Inf &lt; 0)
+mydata &lt;- data.frame(..., stringsAsFactors = HELL_NO)
 @_NickGolding_ Was just trying to get this analysis done so I can submit, and thought you'd appreciate the code too. 2/2
 @_NickGolding_ Thanks. Feel free to modify/undo/ignore anything I put in pull requests. 1/2
 The physics behind balloon popping is much more interesting than I would have expected.
 .@elitabaldridge @jebyrnes My main complaint is that these summaries don't actually model the data-generating process. 2/2
 .@elitabaldridge @jebyrnes A lot of data is very high-dimensional even when the underlying process is pretty low-dimensional. 1/2
-@kara_woo Forgot where I saw this two-line #Rstats gem:  HELL_NO &lt;- FALSE mydata &lt;- data.frame(..., stringsAsFactors = HELL_NO)
+@kara_woo Forgot where I saw this two-line #Rstats gem:
+
+HELL_NO &lt;- FALSE
+mydata &lt;- data.frame(..., stringsAsFactors = HELL_NO)
 Interesting piece in @slate on an old scientific mistake I hadn't heard of before.
-@phdpqc Relevant court case:    @Canonical is choosing to take after Jerry Falwell.
+@phdpqc Relevant court case: 
+ 
+@Canonical is choosing to take after Jerry Falwell.
 @vsbuffalo "Called loci"? And by error, do you mean that their assay didn't work or that you're a mutant?
 @t3kcit @karpathy I only heard about it because I follow a blogger whose last name is "Fox".
 @elitabaldridge @srsupp Absolutely.
@@ -758,7 +822,9 @@ This is the best paper I've read on making quantitative predictions about specie
 . @accidental__aRt just got the nod from @DynamicEcology and @StatModeling! (ie Jeremy Fox and Andrew Gelman). Awesome!
 @jaimedash @elitabaldridge @ESA_org that's my feeling as well. One day, I'll learn to use make, and sourcing wont be needed either.
 @statsforbios hey, that's me! Thanks!
-@algaebarnacle @LAK_Barnett awesome. I found this Wiki photo after class. Good to have confirmation!   Thanks both.
+@algaebarnacle @LAK_Barnett awesome. I found this Wiki photo after class. Good to have confirmation! 
+
+Thanks both.
 @kara_woo @hspter totally agree. Fantastic delivery of a great, fun analysis
 @LAK_Barnett @algaebarnacle thanks, that's what I figured.
 Another pic. cc @algaebarnacle
@@ -858,7 +924,9 @@ MT “@statsforbios: Nice guide to Boosted Regression Trees.  gbm package implem
 @drjtwit @ethanwhite even when user-defined variance fun isn't buggy per se, it can lose precision. Better to have a good version available.
 Wow, @LinkedIn's new email product is a total train wreck. Devastating critique:  I hope no one uses it.
 @elitabaldridge Sounds like you might have a Heisenbug:
-@sarcozona important points. my brain had trouble parsing that title though. Putting the "me" in fem-me-nimity?  Hope you're feeling better!
+@sarcozona important points. my brain had trouble parsing that title though. Putting the "me" in fem-me-nimity?
+
+Hope you're feeling better!
 @jwoodgett @lizabio @mbeisen @leonidkruglyak some comments claim the logic is: iodized salt can have dextrose from GMO corn as an additive.
 @DistribEcology okay, ready. But I don't have wifi here, so I'll have to use my phone. Can we Skype instead? Same username as on twitter.
 @DistribEcology if that's more convenient for you, I could be ready in 10 min?
@@ -868,7 +936,9 @@ Wow, @LinkedIn's new email product is a total train wreck. Devastating critique:
 @DistribEcology absolutely. Is someone claiming otherwise?
 .@zunguzungu @graydon2 Actually, he got a lot more than 38k, since he got paid leave for most of a year.
 JUSTICE!
-Plagiarism tips: 1) don't use the first sentence of Wikipedia's article on Q  2) don't use the sentence your TA used as an example on day 1.
+Plagiarism tips: 1) don't use the first sentence of Wikipedia's article on Q
+
+2) don't use the sentence your TA used as an example on day 1.
 I hadn't realized human population size had been so linear over the last 35 years.
 @vsbuffalo see this thread:  @wesmckinn
 @ehud @graydon2 Also: since I have a long username, I usually get to say more than the people that are talking to me.
@@ -895,7 +965,9 @@ Interesting question from @graydon2: why don't DOIs use hashes? cc @cboettig @me
 @mxwlj @R_you_cereal interpreting big 1-p as "direct support" for a particular hypothesis is seriously misguided.
 It's looking more and more like the #GOPshutdown was an end in itself. #suicidecaucus @ucfagls
 @srsupp I think @xieyihui prefers library() because it throws an error if the package isn't installed. Better to find that out early.
-.@StackStats says my explanation of Expectation-Maximization is "great."  You should read it here:  #stats
+.@StackStats says my explanation of Expectation-Maximization is "great."
+
+You should read it here:  #stats
 The tea party *wants* the US to default on its debt (!) #suicidecaucus
 @kara_woo see  and
 @kara_woo @srsupp
@@ -904,7 +976,9 @@ The tea party *wants* the US to default on its debt (!) #suicidecaucus
 @BobOHara decrease the step size over time? Step sizes proportional to 1/t have some nice properties for lots of optimization algorithms.
 Expectation-Maximization is an absolutely magical technique for #stats.  I wrote a @StackStats post on how it works:
 I can't believe it: MSDS for glucose: get medical aid if ingested (&amp; victim is conscious) via @SciTriGrrl @sarcozona
-@hspter also useful: log="xy"  If it looks straight-ish, you get a Nature paper!
+@hspter also useful: log="xy"
+
+If it looks straight-ish, you get a Nature paper!
 .@statsforbios @statisticsblog I've found base #Rstats code for plotting LOESS very clunky. Highly recommend ggplot2 +stat_smooth()
 #IStandWithDNLee Biology-online has fired Ofek and sent a (weirdly informal) apology to "Danielle".
 Ugh. Read some comments. Turns out that some folks *aren't* #standingwithDNLee. Now I feel gross.
@@ -918,16 +992,19 @@ Serious question: does anyone outside of @sciam *not* #standwithdnlee? I'm afrai
 Worth reposting for #PRsting: @GrrlScientist: "the reaction of the #OA crowd was wrong".    via @BobOHara
 @ZachWeiner There were lots of women then, just none that had daughters that had daughters that had daughters.... who are alive today
 .@ESA_Prez2013 @larysar @ESA_org thanks! Also, @sjGoring, @skmorgane, @GrunerDaniel, and many others will appreciate it as well!
-@ESA_Prez2013 @larysar Sorry, discussion started here.   @esa_org replied here
+@ESA_Prez2013 @larysar Sorry, discussion started here. 
+
+@esa_org replied here
 @recology_ I didn't follow the discussion, but I do find them confusing.
 @recology_ @phdpqc @BenLillie @minutephysics The real problem is the two axes with different scales!
 Anyone interested in an #esa2014 ignite session on predictive ecology?
 @ucfagls @hylopsar @DistribEcology @BobOHara @tpoi @Timcdlucas or link to a better BLAS for faster matrix multiplies
 @ucfagls @hylopsar @DistribEcology @BobOHara @tpoi @Timcdlucas two more ideas: minimize unnecessary copying
 @hylopsar @DistribEcology @BobOHara @tpoi @Timcdlucas are you saving all the intermediate matrices? Do you need to?
-@GrrlScientist  via …
 Excited to read this @MethodsEcolEvol paper by @GregMcI and @DrewPurves... some time when it's not after midnight.
-Is the following statement about #macroecology neutral theory true?  "If different species depend on different resources, it's not neutral"
+Is the following statement about #macroecology neutral theory true?
+
+"If different species depend on different resources, it's not neutral"
 Every time I have to go to the social sciences building (death star) I find a new and exciting way to get lost. #UCDavis
 @graydon2 wat
 @noamross @NSF try here  or the associated Internet archive link. Cc @omearabrian
@@ -943,7 +1020,9 @@ It's 2013. Why does @ESA_org require figures at the back with captions on a sepa
 @vsbuffalo Why on earth would you follow @StealthMountain? (no offense intended to Mr. sneak peak)
 @graydon2 right. I'm taking precautions w/ logs etc. but so far it hasn't changed the results. #Rstats must have a very safe algo for means
 I'm sure this will bite me later, but I'm actually surprised with how accurately #Rstats deals with very very tiny numbers #floatingpoint
-@omearabrian @K_H_F_H @brendanimal if nothing else, it would probably be easier to navigate.   I really appreciate your mirroring this week!
+@omearabrian @K_H_F_H @brendanimal if nothing else, it would probably be easier to navigate. 
+
+I really appreciate your mirroring this week!
 @phdpqc I think @notmisha has a paper on the subject. iirc, they couldn't get it to work well but were optimistic. Cant get link now though.
 @phdpqc my take from reading other smart people (mainly Scott Aaronson): it's quantum annealing, but not "quantum computer".
 @kara_woo @Gastove @patrick_mooney relevant T-shirt by @ZachWeiner:
@@ -955,7 +1034,9 @@ Odd feature of the shutdown debacle: Obamacare enrollment starts tomorrow, shutd
 @PlanetDr That's simply mind blowing to me. Agree with @Acclimatrix and @DrMRFrancis: this shouldn't be at all complicated.
 Some of my school's health care personnel seem to have forgotten that the reason they have jobs is to make sure we have health care.
 Some of my department's IT staff seems to have forgotten that the reason their jobs exist is to facilitate our work.
-@hspter the closest thing I've actually used before is this:   But it's based on predictions, not direct observation
+@hspter the closest thing I've actually used before is this: 
+
+But it's based on predictions, not direct observation
 @hspter Wolfram Alpha used to know, if you used the right incantation. NOAA probably has it in a less processed form. 1/2
 @karpathy Gotta add them to my next paper, then.
 @karpathy oh, didn't see this follow-up. Agreed. But amazing marketing: everyone is reporting it &amp; google is covered in their press release.
@@ -970,7 +1051,9 @@ Some of my department's IT staff seems to have forgotten that the reason their j
 Did anyone else at #UCDavis have health insurance problems today? I did, and so did 2 of my friends. #unacceptable
 @PeteHaitch @vsbuffalo same here
 @tpoi I think your auto-post mechanism just went bonkers.
-@_NickGolding_ @_inundata Also, this:   For reference, a typical grad student might make 20k, give or take a few k.
+@_NickGolding_ @_inundata Also, this: 
+
+For reference, a typical grad student might make 20k, give or take a few k.
 @_inundata @_NickGolding_ Yeah.  The problem is, if you don't tip that much (give or take) they end up making far less than minimum wage.
 .@phdpqc Two stochastic, feed-forward methods that may replace undirected models for a while:
 @phdpqc I don't know anyone but you that works with MLNs.
@@ -981,7 +1064,9 @@ Did anyone else at #UCDavis have health insurance problems today? I did, and so 
 How do folks feel about the Artistic License? Do whatever you want privately, but must state changes if distributed
 I can't tell yet how well iTunes Radio learns what I like, but its stations start out playing pretty much what I want.
 Pleasantly surprised with the quality of iTunes Radio so far, compared with last_fm and pandora.
-@polesasunder In theory, I branch. In practice, I may not commit at all or just commit it to master :-x  I am getting better, though.
+@polesasunder In theory, I branch. In practice, I may not commit at all or just commit it to master :-x
+
+I am getting better, though.
 A Visual Explanation of SQL Joins
 New version of lme4 is now on CRAN! Lots of new goodies for #rstats and a sane version number
 @cboettig If X is just a thin wrapper for Y, I'd probably cite both.
@@ -1009,7 +1094,9 @@ misunderstood). Proven by Gödel but nobody would publish it, loo…
 @recology_ @BoingBoing @kara_woo Should be able to sue FOIA-blockers for contempt at this stage. &amp; force them to pay legal fees.
 @noamross @rstudioapp gdb is the standard, I think? Never used it though.
 @vsbuffalo @Graham_Coop Being Bayesian can make some high-dim problems harder. @driainmurray takes a stab at it here
-@kara_woo reviews of some recent Android phones:   If you’re an iPhone person like me, the 5C is probably the best bet
+@kara_woo reviews of some recent Android phones: 
+
+If you’re an iPhone person like me, the 5C is probably the best bet
 @hspter I'm your age (I think) and the noseless version is just weird.
 Morning RT: How can you get a PhD when you're chronically ill?  new post at @TenureSheWrote by my friend @sarcozona
 @sarcozona glad I could help! Liking the post so far
@@ -1026,7 +1113,13 @@ What would you ask for? by @sarcozona @TenureSheWrote
 @statsforbios possibly of interest: A statistical explanation of MaxEnt for ecologists  via @figshare
 @statsforbios technically the limit is on the sum of absolute values.
 Worst argument ever? "we can't explain why this is legal b/c we don't understand it. But trust us" -NSA
-@skmorgane @ethanwhite @hormiga actual conversation:  Bio? Like cancer?  No, I'm looking at snails.   Maybe snails get cancer too!
+@skmorgane @ethanwhite @hormiga actual conversation:
+
+Bio? Like cancer?
+
+No, I'm looking at snails. 
+
+Maybe snails get cancer too!
 How xkcd got banned from Wolfram alpha
 66 years ago today, Grace Hopper found the first insect-based computer bug  (actually a lepidopteran)
 @vsbuffalo I once made this by mistake.  I forget how.
@@ -1044,13 +1137,13 @@ How xkcd got banned from Wolfram alpha
 @phdpqc right. Why do you need it?
 @phdpqc nlp?
 @phdpqc I agree with the last paragraph. This is the first bit that I think is questionable about whether it should have been disclosed.
-present) is main focus
+.@djhocking @TrevorCaughlin if you don't need those or have good alternatives, use Poisson reg unless p(env|present) is main focus
 .@djhocking @TrevorCaughlin main benefits of the MaxEnt software are smart nonlinearity search, good regularization, good interface.
 @djhocking my understanding is "all cases".  See my recent tweets for summary of trade-offs between the two approaches.
 .@TrevorCaughlin Right. And prior to 2010, explanations were pretty lacking. I can barely read the original papers &amp; I do machine learning!
 .@TrevorCaughlin but if I had presence-background data, I'd probably just use Poisson regression in almost all circumstances. 4/4
-presence) and p(env, presence) may be fruitful for generating new models. 3/n
-present) to be like p(env) when data is limited) 2/n
+.@TrevorCaughlin more generally, thinking hard about p(env|presence) and p(env, presence) may be fruitful for generating new models. 3/n
+.@TrevorCaughlin regularization has a nice interpretation in MaxEnt (constrain p(env|present) to be like p(env) when data is limited) 2/n
 .@TrevorCaughlin good Q. Software has some nice features (which is sort of a separate issue, but may be worth considering in practice) 1/n
 RT @TheorEcolBlog Simulation-based inference using "synthetic" likelihoods in an epidemiological model  cc @noamross
 @polesasunder @mbeisen @drugmonkeyblog is there a summary or storify? I haven't been keeping up
@@ -1098,11 +1191,15 @@ Hm, maybe I should have read that pseudocode a bit more carefully...
 @djhocking sounds like you're right. They're planning on adding other samplers but for now it sounds like you're doing the right thing
 @djhocking I think it can do likelihoods for discrete, but not sampling. So binomial GLMMs are ok, but finite mixtures aren't ready yet
 @noamross My Rcpp code is pretty trivial at this point &amp; doesn't really do ecology or simulation.  Sorry!
-@djhocking Intel processor with lots of cores. Lots of memory. SSD if your data sets are big.  Also, try stan--can be much faster than JAGS.
+@djhocking Intel processor with lots of cores. Lots of memory. SSD if your data sets are big.
+
+Also, try stan--can be much faster than JAGS.
 @phdpqc @recology_ @srsupp more like a lab meeting, less like ESA
 @phdpqc @recology_ @srsupp iirc, idea is to make people comfortable talking about half-baked ideas that aren't ready to be share widely.
 @hspter ping
-.@jbkinney Bulletproof backpacks remind me of this:   If someone thinks its a good idea, we have serious problems.
+.@jbkinney Bulletproof backpacks remind me of this: 
+
+If someone thinks its a good idea, we have serious problems.
 Really glad to see @MethodsEcolEvol &amp; @ecostats discussing problems with a paper they published. Very good for science.
 @scisus just noticed I wasn't following you any more for some resaon!  I've been missing out.
 @AllieBrosh Best wishes Allie!
@@ -1111,7 +1208,9 @@ Really glad to see @MethodsEcolEvol &amp; @ecostats discussing problems with a p
 @hylopsar @Phalaropus But it's probably still worth doing it right.  Thanks again for your input!
 @hylopsar @Phalaropus I don't *actually* care about the tree details for my analysis (just need chickens to be closer to ducks than crows).
 @hylopsar @Phalaropus You're probably right.  I'll find a way to make it work.
-@hylopsar Thanks! Any opinions about the two backbones?  Also, is there a consensus tree? 10000 posterior samples are hard to work with...
+@hylopsar Thanks! Any opinions about the two backbones?
+
+Also, is there a consensus tree? 10000 posterior samples are hard to work with...
 @viennateng Simon and Garfunkel's "patterns"!
 @vsbuffalo I know stan (MCMC engine) uses templates and boost libraries a lot. They sound useful to me for some stats stuff.
 @vsbuffalo rcpp?
@@ -1132,14 +1231,20 @@ Oh God.  I have to find someone in the #UCDavis Social Sciences Building ("Death
 .@RosieRedfield would be great if the CC folks or journals provided legal support for authors like fsf does for programmers. Maybe they do.
 .@RosieRedfield I think the "silly" assumption is that outsourcing right to sue to Elsevier or Springer would protect authors' interests 1/2
 @RosieRedfield it's not their copyright. It's yours. One benefit: publisher also can't threaten to sue your colleagues for classroom use
-.@RosieRedfield copyright enforcement == legal threats by owner.  Unless you're willing to sue, must rely on norms, regardless of license.
+.@RosieRedfield copyright enforcement == legal threats by owner.
+
+Unless you're willing to sue, must rely on norms, regardless of license.
 .@RosieRedfield if they violate the license, they're infringing. So it's the same as if you hadn't licensed it at all 1/2
 @phdpqc yeah. Salakhutdinov has more hacks for layer-by-layer initialization in later papers. Very confusing.
-@phdpqc idea that learning ≈ learning better priors is appealing.  MCMC-based stochastic approx, combined with mean field is a huge pain.
+@phdpqc idea that learning ≈ learning better priors is appealing.
+
+MCMC-based stochastic approx, combined with mean field is a huge pain.
 @ucfagls package should probably let users mix and match: 1) choose functions for generating latent vars 2) choose distributions to sample
 @ucfagls I'd be interested! I think ecology really needs better techniques for simulating this sort of thing.
 @ucfagls what are your priorities at this point?
-@ucfagls agreed.   Could be fun to use Gaussian processes to allow for arbitrary (smooth) response shapes. Can't balloon much from there!
+@ucfagls agreed. 
+
+Could be fun to use Gaussian processes to allow for arbitrary (smooth) response shapes. Can't balloon much from there!
 @ucfagls I do think that a simple version would be ok: simulate a grid, give each species a linear or quadratic response, &amp; feed to rpois.
 @ucfagls Ah, yes.  Sorry for confusion.  He mentioned vegan in another context.
 @ucfagls Yes. He mentioned simulating environmental values &amp; then simulating presence/absence from that? Rudimentary, but maybe relevant.
@@ -1153,7 +1258,9 @@ Oh God.  I have to find someone in the #UCDavis Social Sciences Building ("Death
 @kenlocey @elitabaldridge yes!
 @NetworkFact @ProbFact Have you compared the fit versus a lognormal?
 @phdpqc I think I read it a while ago. Should probably re-read.
-@phdpqc article had some other problems, starting with the title.   "*Using words*, the author wrote an article about compressed sensing"
+@phdpqc article had some other problems, starting with the title. 
+
+"*Using words*, the author wrote an article about compressed sensing"
 @phdpqc Wired had a story about a kid that only survived MRI tube because of compressed sensing:
 @james_gilbert try wrapping it in quotes. Doesn't always work, but often does.
 @jrossibarra @Amazing_Maps @Graham_Coop any idea why lightning strikes would be so rare over the open ocean? Or is that detection bias?
@@ -1174,7 +1281,9 @@ Also relevant: TSA can't tell the difference between two AAs and a 9-volt
 Apparently TSA will pull aside and check any bag with a 9-volt battery because "they're used by terrorists a lot"
 I've discovered something worse than TSA agents: TSA trainees.
 Why does Minneapolis need *two fully-armed cops* to check my fare on the light rail?
-@carrieseltzer light rail is another option if you don't mind walking to the station.   Great seeing you again!
+@carrieseltzer light rail is another option if you don't mind walking to the station. 
+
+Great seeing you again!
 @djhocking any character would work
 @djhocking tweets starting w/ @ are only shown on your followers' feed if they also follow the person you mention. Dot makes it broadcast
 This #ESA2013 talk is just: don't discretize continuous variables if possible. Good advice and well-presented, weird that we need it in 2013
@@ -1316,12 +1425,16 @@ Tampons Confiscated, Guns Still Allowed At Texas Capitol Ahead Of Abortion Vote.
 @sarcozona glad your data is safe!
 Myriad is *still* claiming a monopoly on breast cancer genetic screening--filing big lawsuits
 @vsbuffalo hope it keeps improving. Which keyboard are you using?
-@sarcozona try this one instead.   More seriously, hope you and your data are both doing well!
+@sarcozona try this one instead. 
+
+More seriously, hope you and your data are both doing well!
 @mensurationist @ecostats Maxent was always fitted by maximum likelihood. Difference is now we can use GLM machinery for optimization.
 @kara_woo I'm not a mirage. Tony might be, though. #nceasSI
 @hpj28 @Jen_Costanza thanks!
 @jslefche @brittzinator I assumed you were joking! Turns out they do belong to @st3powers!
-@KristenDybala @Jen_Costanza @hpj28 @ErikaMudrak @ShaleneJha yes!   Btw:
+@KristenDybala @Jen_Costanza @hpj28 @ErikaMudrak @ShaleneJha yes! 
+
+Btw:
 @jslefche @kara_woo enough to hear in Siberia! #nceasSI
 @mattmight the list does not contain itself, btw
 @brittzinator Sorry I didn't get a chance to say goodbye! Awesome seeing you again! BTW, Are these yours?
@@ -1331,7 +1444,7 @@ Myriad is *still* claiming a monopoly on breast cancer genetic screening--filing
 @kara_woo awesome!
 @ZachWeiner still looks bad on mobile (see attached). Also very slow to load, but that could just be the new server.
 @davis_egsa pop bio grad stident
-x) #nceasSI
+Rege(tz|x) #nceasSI
 @sarcozona That's what you think!  Bandits are sly like that.
 @sarcozona stay safe!
 @_NickGolding_ congrats!
@@ -1348,7 +1461,9 @@ If extinction is imminent, Wikipedia will make sure to send "images required for
 @_NickGolding_ definitely! Would you like to Skype some time?
 @_NickGolding_ thanks!
 @_NickGolding_ in the guts of the code. mat1, mat2, d2, mn, wt, etc. I can guess some from context, but I'm still pretty lost.
-@_NickGolding_ Or maybe a reference implementation / pseudocode I could consult?  Thanks!
+@_NickGolding_ Or maybe a reference implementation / pseudocode I could consult?
+
+Thanks!
 @_NickGolding_ Dude, GRaF works great, but I have no idea what your variable names refer to. Do you have a glossary somewhere?
 Huh.  I *did* remember the chain rule correctly.  Go figure.
 @vsbuffalo I hate the control key. Have you considered mapping caps lock to control in keyboard settings?
@@ -1384,7 +1499,9 @@ The record was reviewed and approved, so I guess the #eBird folks know something
 #eBird says someone found an Anna's hummingbird in Michigan in late October.  How skeptical should I be? cc @KristenDybala
 Remember when politicians were worried about the Census violating their privacy?  #NSA #PRISM
 @ethanwhite Oh, I misread your tweet.  Well, hope you enjoy the quote anyway....
-@ethanwhite via   Something similar might be true for different modeling frameworks.
+@ethanwhite via 
+
+Something similar might be true for different modeling frameworks.
 @ethanwhite sorta relevant: C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off
 @jbkinney See also Figure 2 here:  Or my favorite:  #ridiculogram
 @graydon2 that's beautiful
@@ -1402,7 +1519,9 @@ Remember when politicians were worried about the Census violating their privacy?
 @ErikaMudrak lets talk tomorrow in person
 @UnixToolTip @teeniedeenie I have to learn 100 Vim commands before I'll be a real programmer??
 .@brittzinator this may interest you:  #womeninscience cc @scicheer
-SELECT species FROM eBird WHERE ST_DWithin(geog, ST_GeographyFromText('SRID=4326;POINT(-119.6972 34.4208)'), 1000);   Whoa.
+SELECT species FROM eBird WHERE ST_DWithin(geog, ST_GeographyFromText('SRID=4326;POINT(-119.6972 34.4208)'), 1000); 
+
+Whoa.
 Confirmed: PostGIS is amazing too! cc @tpoi
 @noamross @AndyJFrank @jrossibarra I'm not that old!
 @noamross back in my day, that was a great game.
@@ -1504,7 +1623,9 @@ I have a new introduction to maximum likelihood in #Rstats on @noamross's blog.
 @noamross thanks for formatting my thingy, btw. Good to know about 'spin'
 @jebyrnes thanks!
 I/O on this 40-gigabyte file is making me wish I had gotten an SSD
-@srsupp only context I run into it is setting a value inside of 'system.time'.   Eg system.time(myvar= result.of.long.computation)
+@srsupp only context I run into it is setting a value inside of 'system.time'.
+
+ Eg system.time(myvar= result.of.long.computation)
 @phylorich @srsupp I don't think @rstudioapp auto-converts to &lt;-
 @srsupp I know r-forge has been doing maintenance.  It may be done now though.
 @srsupp I use = because it's much easier to type.  The cases where it behaves differently from &lt;- are rare and easy to anticipate.
@@ -1515,7 +1636,9 @@ Woke up so many times last night that I had a dream about reading a book about h
 @noamross I always assumed it meant they had a terrible website.
 @jbkinney @JFWSchlesinger I'll try to double-check after I arrive tonight.
 @jbkinney @JFWSchlesinger I believe Michael Jordan makes the claim in this video around the 15-minute mark.
-@sciencegurlz0 @hylopsar WAT.   Seriously, what's that paper even about?
+@sciencegurlz0 @hylopsar WAT. 
+
+Seriously, what's that paper even about?
 @JFWSchlesinger I'm traveling now, but I'll try to find the reference or you.
 @jbkinney @JFWSchlesinger Bayes isn't an extension of frequentism: If you condition on the data, you often *can't* condition on the model.
 @noamross @recology_ Looks like the help files are buried in a binary. Probably no easy way to intercept them manually.
@@ -1524,7 +1647,7 @@ Woke up so many times last night that I had a dream about reading a book about h
 @jbkinney more seriously, there are some very smart frequentists that contribute a lot to science. Efron is one. 1/2
 @jbkinney Bayes only tells us what we want to know correctly some % of the time. Freq analysis lets us know what the % is.
 @jbkinney what *I* want to know?
-model) is important when the "true" model lies outside the hypothesis space (essentially always).
+@jbkinney @leonidkruglyak Also, P(data|model) is important when the "true" model lies outside the hypothesis space (essentially always).
 @jbkinney @leonidkruglyak More to frequentism than p values.  Bias/variance decomp., PAC bounds, etc. all require fixed model &amp; random data
 @jbkinney frequentism is about guarantees that methods/procedures will actually work. It's an important complement to hypothesis exploration
 @jbkinney including the Venn diagram? Seriously?
@@ -1552,7 +1675,9 @@ How important is cDNA for molecular work? Could researchers make do with mRNA fo
 @leonidkruglyak @ewanbirney @DrWorms Smuckers sued a pie maker for infringing on something like this. Pie maker had a century of prior art.
 @phdpqc thanks!
 submitted
-@sarcozona blarg. Sorry. Glad you were up to talking last night, at least--had a great time.   Feel better soon!
+@sarcozona blarg. Sorry. Glad you were up to talking last night, at least--had a great time. 
+
+Feel better soon!
 @phdpqc @ethanwhite Thanks!
 @sarcozona #nakedworkday?
 Does anyone have examples of cover letters they wrote to journals? I'm not sure how to proceed.  Something modeling-related would be ideal.
@@ -1649,7 +1774,9 @@ Achievement unlocked: apartment is cleaner on girlfriend's arrival than when she
 @ZachWeiner 3) looks like maybe you can't buy it for friends or relatives, which is what people tend to do with gift cards.
 @ZachWeiner 1) You can't spend it on books or socks. 2) bulk discounts
 .@hadleywickham @michaelhoffman Perhaps fit a mixture of Gaussians and report each mean separately?
-@sarcozona Continuing with that theme...    Sorry!
+@sarcozona Continuing with that theme...  
+
+Sorry!
 .@graydon2 one of my best terminological achievements was summarizing critical theory as "applied literature".
 @0xabad1dea What files describing procedures for developing biological weapons etc.?
 via @StatModeling: a nice reminder that "unbiased" methods are biased too:
@@ -1705,7 +1832,9 @@ Making complicated figures in #Rstats always feels so goofy. I never know what t
 “an animal is not expected to ingest food through its anus”, but this one does. via @srsupp
 @JohnDCook is that the video you intended to link to?
 just got *eight* spam/phishing emails from different addresses claiming to be "Elena".  Apparently Elena is really desperate for a boyfriend
-@hylopsar maybe something with some negations. Something that boils down to  if(TRUE &amp; !FALSE)
+@hylopsar maybe something with some negations. Something that boils down to
+
+if(TRUE &amp; !FALSE)
 @hylopsar that's beautiful
 @_inundata @hspter ... I'm on tweetbot too. Weird.
 @_inundata @hspter odd. On my phone, the thumbnail says "UCK" and I knew what it was without clicking.
@@ -1737,7 +1866,9 @@ Does anyone know about efficient methods for updating the SVD of a matrix whose 
 @hadleywickham Seems more like 5% on my Mac...
 @gcluley @NakedSecurity @0xabad1dea  Thanks for this—it may explain the odd behavior of a friend’s computer
 @hadleywickham I’m interested in why it only warns for some PDFs.
-.@phylorich re: testing random simulations:  this might help  cc @JohnDCook
+.@phylorich re: testing random simulations:
+
+this might help  cc @JohnDCook
 @vsbuffalo Just let me know when you're free
 @munmun10 @hspter use a Markov blanket if the shirt doesn't cut it
 @vsbuffalo any thoughts on what that language will be like?
@@ -1774,10 +1905,16 @@ Looks like profiling (Rprof) got sone very nice improvements in #Rstats 3.0. Yay
 @scisus I expect a full report at our chat tomorrow!
 @ZachWeiner have you seen this site about analyzing your humor?
 @vsbuffalo that was only justified once in human history:
-@_inundata @noamross:   E.g.   These notes by the same author might help too:
+@_inundata @noamross: 
+
+E.g. 
+
+These notes by the same author might help too:
 @noamross @_inundata i think that real LaTeX wizards can pull it off, but I'm not sure why they'd want to. Good LaTeX looks like it was ppt
 @hspter does this make you feel better? Via @_inundata
-@Josh_Lipson @phylogenomics "hurl" the spheroid, actually.   Let's not be rough though!
+@Josh_Lipson @phylogenomics "hurl" the spheroid, actually. 
+
+Let's not be rough though!
 @JacquelynGill thanks for tweeting it--looks like a great resource.
 @JacquelynGill How can they restrict it to "50... items in a single, non-commercial project"? All of these images are public domain.
 @johnmyleswhite @tdhopper same thing happened in Ecology with a different famous example (turned out, 10 years later, it was a Poisson GLM)
@@ -1822,3 +1959,719 @@ Nice examples of some of the most useful #ggplot2 options
 .@cboettig @PNASNews Neat. How do you feel about the term "model-free" in this context?
 @tdhopper Thinking of creating a @TextExpander snippet to replace every "lol." with "lol lol." so I fit in with the kids lol. #recursion
 Does anyone know about regularizing with the nuclear norm (aka trace norm)? Found a cool demo, but not comments.
+.@driainmurray the Cartoon Guide to Physics is excellent. Read it in high school and learned way more than reading my textbook.
+.@phylogenomics of course, the worst superhero of all is still @_FloridaMan.
+@hylopsar try tweetbot if you're on an iPhone.
+@JohnDCook There's a hash tag for that: #badomics. cc @phylogenomics
+@ESA_org it's missing a v.  "DavHarris."  Thanks again!
+@ESA_org I only got the first email (initiation). Could you check Abstract #41676 for me?  Many thanks!
+@ESA_org Should I have gotten an email confirmation? It's been a few hours and I still just have the online receipt...
+@sjGoring @ucfagls @JacquelynGill @jessicablois @IceAgeEcologist most glms put more weight on presences than maxent. Easy to fix though 2/2
+@sjGoring @ucfagls @JacquelynGill @jessicablois @IceAgeEcologist the GLMs people normally use for SDM aren't the same as maxent though 1/2
+@BobOHara @sjGoring @ucfagls @JacquelynGill @jessicablois @IceAgeEcologist the other diff is nonlinearities, though glms can do that too.
+@xieyihui @HarlanH thanks!
+Right. This is for presence-background SDM (eg the app by same name). @ethanwhite @BobOHara @_NickGolding_ @drnickisaac @nhcooper123 @rich_
+@sarcozona damn, I thought you were still doing better.  Sorry!
+Where by “power” I mean ease of use, not necessarily anything about quality @sjGoring @RobFreckleton @BobOHara
+Don’t underestimate the power of a graphical user interface. @sjGoring @RobFreckleton @BobOHara
+@HarlanH I think @xieyihui has something like this in the works.
+He also has a "verifies email."  @redlipblenny @hylopsar
+@skmorgane I thought they're called trailblazers because they set the trail on fire.
+"furry creature with dependable toilet habits is proving useful in attempts to chart the Earth's past climate change"
+@tdhopper I'd ask @cboettig. I think he describes something like this in his notebook. Making informal reports with knitr helps too.
+@tdhopper you mean like automatic tags?
+@hadleywickham Sorry for bothering you!
+@hadleywickham Minutes.  But I found the problem: reshape2::melt turned my dimnames into factors. ggplot2 choked on factors, not rendering.
+Should geom_raster be orders of magnitude slower than lattice's levelplot for 300 rows x 300 columns? @hadleywickham #ggplot2 #rstats
+Wonder how many of the top scores on @kaggle  #marineexplore #whaledetection challenge are neural nets
+@Sci_Phile wouldn't it depend on the spring coefficient of the bow?
+@vsbuffalo @johnmyleswhite @afrolov hellinger distance obeys the triangle inequality, which might be important for mds. Don't think KL does.
+@vsbuffalo @johnmyleswhite @afrolov or try another f-divergence like Hellinger distance
+Fantastic example of dynamic/interactive data analysis in the browser with ggplot2 and shiny  via @hadleywickham
+@j_timmer @carlzimmer Lenski had to ask his daughter what "pwn" meant after he read the Internet's initial response.
+@phdpqc @DistribEcology how is profiling easier in static languages?
+@CjBayesian You weren't kidding! Someone got 97% on their first submission! @kaggle
+Whoops fogot the link.  Really clever paper for deterministic fitting.  cc @dschoolmaster @karpathy @driainmurray
+I don't understand how they applied the method to deep belief nets when they say it can't work with hidden state variables
+Trying to wrap my head around this approach to fitting probabilistic models. Sounds super-cool. cc @driainmurray @karpathy
+Need to keep this in mind  #justshipit
+This can't possibly be real: 
+turtle-duck chimeras through transfer of early blastoderm cells  via @j_timmer
+@dangoodin001 Nice piece on Facebook's security response.  Did you intend to turn off the comment thread?
+Thanks! RT @vsbuffalo  Yea, just use sudo.
+Another option would be to add myself to the sudoers file. Not sure if that's safer or not. 2/2 cc @vsbuffalo
+Is it dangerous to run with admin privileges on a Mac? Seems like it would make my life in the terminal a lot easier... 1/2 cc @vsbuffalo
+Basically, @kaleidoscopeapp's ksdiff is having trouble lining up paragraphs with big changes.
+What diff tool do people like for dealing with manuscript text? @kaleidoscopeapp's ksdiff is saying that almost every word is changed
+@SchKitchenette @kanderson @phylogenomics bankrupting? Really?
+@DistribEcology occasionally. Mainly for levelplot. If I want to do anything fancy, I'll melt my data and re-do it with ggplot
+Often, iOS Mail will even find the message I'm looking for, but it *disappears* before I can open it. cc @gruber
+.@gruber How can you "really like iOS’s built-in Mail app"? Does the search function not fail 50% of the time for you like it does for me?
+Does anyone know anything about these #uc #healthcare cost increases? @phylogenomics
+.@hylopsar We should just publish everything in "Nature and Science".  Much easier than either one!
+Dear students: when I google the hw questions, I get the same Yahoo Answers pages you do. At least scroll down to p3 to be less obvious.
+See also this paper on MAXENT SDMs as a Poisson process. Very promising.  @BobOHara @MethodsEcolEvol @RobFreckleton
+@scisus @revodavid I am incapable of understanding hive plots #ridiculogram
+This presentation on how to write a paper is excellent. Wish I'd seen it before  via @silentbicycle
+@DynamicEcology huge responses might actually prompt the glamour mags to publish *more* outlandish stuff for the extra attention.
+@ethanwhite Thanks. Makes sense. Sounds like really interesting, cutting-edge stuff.
+Nice post about variable names
+.@ethanwhite if it's confidence intervals, have you considered bootstrapping the state variables &amp; fitting a model to each replicate?
+.@ethanwhite doesn't maxent predict whole distributions, including the variance? Or do you mean something like confidence intervals?
+@ethanwhite I have the same problem with a talk I just gave. Thanks.
+@ethanwhite nice, although I can't infer much from the slides alone. What's "the failure?"
+Oh God. #ESA2013 abstracts are due son. In February. For a conference in August. #musthurry @ESA_org
+@hylopsar It fills up my phone's whole screen
+@scisus @ubclibrary On my end in Califoria, @JSTOR seems to be having problems too.
+Convergence between frequentism an bayes
+@RosieRedfield I have an old version of snapz   but now I mainly just use Quicktime.
+@RosieRedfield Quicktime can do it, but it's pretty bare-bones. Here's a list with some fuller-featured alternatives:
+@Graham_Coop thanks!
+@leonidkruglyak @eperlste @atulbutte @Graham_Coop doesn't that have issues if you transfer copyright to the journal?
+The Norvig paper goes on to talk about what stats models actually *are*. Highly recommended reading.  Via @phdpqc
+Great piece by Peter Norvig on stats and engineering vs. science  Via @phdpqc
+MP3 files written as DNA with storage density of 2.2 petabytes per gram  cc @DATACURATORHULK
+When are complicated stats models overkill? Complex models for "rigor" vs. for learning about genuinely complex stuff
+@tdhopper @gallamine The other person on my Twitter feed that's into that sort of thing is @karpathy.  Maybe you should talk.
+Wanted: An "extremely adventurous female human" to give birth to a Neandertal  via @prismatic
+This may actually be true: @mbeisen "if aaron swartz had formed a corporation to hack JSTOR, nothing would have happened to him"
+I'm astonished that my Mac's spellchecker didn't complain about "Rao-Blackwellization". Chrome's spellchecker doesn't like it, though.
+Ironically, I can't put one of my own papers up for #pdftribute right now because I can't access it from home. #paywall #nonsense #OA
+Just put a couple of my papers up on  for #pdftribute. Already open access, but worth doing.
+@hylopsar If variables are on different scales, rescaling each one to have equal variance might make sense.
+@hylopsar Intuition: Euc.dist squares everything, so it might overemphasize big data axes. Effect gets stronger with higher dimension.
+@hylopsar what's the context? Ordination?
+I did a Google search for "Deep Boltzmann Machines." This is by far the weirdest thing that came up:
+@DynamicEcology @JacquelynGill @sjGoring I got to say that in my first paper. Nobody's listened so far, though.
+@PhilemonBrakel interesting. Thanks again!
+.@fishspeciation Congrats on the writeup.  Awesome work!
+Task lists from @github.  Totally awesome, but more #Markdown fragmentation.
+We assumed the earth was flat because we don't know how to use #GIS. #OverlyhonestMethods @tdhopper
+@PhilemonBrakel thanks. Any tips on picking the number of steps and temperatures?
+@JohnDCook Plasmids are mini-chromosomes. You can trick bacteria into making stuff for you by injecting them with with genes you want.
+@johnmyleswhite Yup. I've heard great things, but haven't ever tried any of them yet (parallel tempering, tempered transitions, mcmcmc, etc)
+Does anyone on here have much experience with "heating" Markov chains for faster mixing? Any advice or starting points? #MCMC #Rstats
+Apparently, 15% interest is "punitive" and unconstitutional when rich people have to pay it.
+@noamross nothing comes to mind.
+.@_inundata @hadleywickham  looks neat, but how do you avoid stepping on one another while editing at the same time?
+@noamross might also make sense to link directly to a couple of successful forum posts. Also might want to give RStudio its own section.
+.@noamross Nice resource! I'd also mention @StackStats for asking questions. Often better than stack overflow for R, depending on topic.
+@ZachWeiner I have overlapping videos on my mac in chrome on the beta page.  Looks nice otherwise. See image
+@johnmyleswhite it took 20 minutes after your request for this to show up in my feed:
+minimizing the Kolmogorov complexity of driving directions:
+.@leonidkruglyak @themoneygame or what if someone steals it and then melts it down? Where does the money go?
+.@leonidkruglyak @themoneygame what happens if the coin gets stolen?
+@scisus Handwritten digit recognition is well-studied. The hardest part might be overflow columns etc.
+@scisus I know a bit about handwritten OCR *methods*, but I'm afraid that's it. I've re-tweeted for you, in case someone knows more.
+@sarcozona well, if you do decide to go with R and run into trouble, let me know.
+@sarcozona those all exist, but I guess they're scattered across packages. Hat do you want to do?
+@sarcozona define "multivariate"
+@vsbuffalo I thought it was a clever name for the sort of quick, disposable graphs that Hadley Wickham advocates.
+.@eddelbuettel RcppArmadillo cut my matrix*vector multiply times in half.  Paying attention to vector types saved me another third. Thanks!
+.@github I can't see when your scheduled maintenance is going to end because the site where you posted it is down. #catch22
+Reference classes: for when "one would like all the code dealing with an object to see the exact same content" #Rstats
+This is terrifying.   via @BillMoyers  #NRA
+@eddelbuettel I meant in your tweet: you said "htttp://goo.gl/Uc2jl" instead of " Sorry for the confusion.
+@eddelbuettel Awesome.  I'm really impressed with how rapidly you're developing this. You've got an extra "t" in "http", though, fyi
+A nice review of reviews of The Signal and the Noise by @fivethirtyeight
+@vsbuffalo that's sort of what I figured. Thanks.
+@vsbuffalo makes sense. Enjoy the weekend!
+.@vsbuffalo would x86 vs ARM matter much for scientific computing, in your view?
+@gknauss no no no. Widely available guns are a way to defend against tyranny, remember?
+.@ZachWeiner did you just reinvent sleep sort?
+.@ZachWeiner is frog sort reminds me of bead sort. The latter can be weirdly efficient on the right hardware.
+@hardsci @mja forgot the link; sorry.
+@hardsci @mja For what it's worth, this R function does 4 kinds of scree tests; most of them favor 3 factors, not 1.
+@hardsci @mja Eigenvalues are also interpreted with relative magnitude (e.g. % variance).  Can't estimate cumulative proportions either.
+@leonidkruglyak @caseybergman So this is a "no" as well, then?
+@Flattr My dashboard says something about a "monthly budget." Am I going to get charged every month??
+.@hardsci @mja OK. But does that relate to the question of plot axes?
+.@mja  @hardsci A more honest plot would include `ylim = c(0, 4)`
+.@mja @hardsci First component explains 27% of the variance in your first figure.  With the y-axis starting at 0.5, it looks like much more.
+.@eddelbuettel no, swapping in a new blas is a good idea. Thanks!
+My slow #Rstats program spends most of its time doing matrix*vector multiplication. Would rcppArmadillo improve things? @eddelbuettel
+"there are two hard things in computer science: cache invalidation, naming things, and off-by-one errors." via
+@vsbuffalo Happy birthday dude!  I'll be there.
+“If you put front vowels in your language, nobody will take it seriously as a language of Orcs.”
+Cool story on invented languages. More people hear Dothraki on TV than Yiddish, Navajo, Inuit, Basque &amp; Welsh combined
+@sarcozona good luck!
+Should've read the #Rstats reference classes docs more carefully. Requiring arguments for initialization turns out to be a bad idea. #RTFM
+@_inundata Does that have a canonical definition?
+Nice writeup by @driainmurray on his 2nd place @kaggle #darkworlds submission:  #bayes
+@driainmurray @kaggle Congratulations!
+Interesting discussion of higher-order correlations and biases in human personality traits  via @JeromyAnglim
+Turns out the "Discovery" "Institute's" "laboratories" are just a stock photo.
+@sarcozona Oh God. At least they're promising to change the terms to something more sensible:
+.@ZachWeiner I like it because I can imagine someone adding annealing to make it more accurate.
+.@ZachWeiner annealed bubble sort: swap the wrong way with prob (1-x), reduce x each time step until it reduces to bubble sort.
+Open letter from a UC Art Professor to the UC President (RE: now defunct new logo)
+@ZachWeiner My gf loves your comics and has the following requests: 1) more dinosaur comics (esp. some involving birds) 2) more parasites!
+@ethanwhite thanks
+@dabeaz @ethanwhite can't get the link to work on my phone, this video is very relevant: search for Kermit and "not a cookie". #20questions
+@marcoarment my issue doesn't appear to have auto-downloaded, despite being on wifi the last few hours. Possible bug?
+Error when I try to change colors in Excel: "Font size must be between 1 and 409." #mystifying #Microsoft
+@hadleywickham thanks!
+.@hadleywickham I'm doing some #Rstats sims with lots of vars &amp; want mutability. What would you recommend? Environments? R5? Mutatr? Thanks!
+Some nice thoughts on teaching #statistics
+@ZachWeiner @funnyjunk Careful! They might sue you for eleventy billion dollars!
+@neiltyson that's billions of nanograms!
+Practical machine learning tricks from the KDD 2011 best industry paper  via @prismatic
+@noamross @hannahjwaters Less than 50 cents per page!
+@vsbuffalo I thought you had a nice post useful about `with` being dangerous, but can't find it on your blog. Any idea what I'm thinking of?
+@sarcozona you can’t just leave us hanging! Examples!
+@ZachWeiner Second   People can submit edits and it's all under version control and color-coded and wonderful
+The color-coded equation near the bottom of this post is a fantastic way to explain Fourier Transforms.
+@jebyrnes this was my anthem last week.  works well on #InfiniteJukebox too
+@GueyeNono it's especially dangerous with matrices, eg adding a vector of length 3 to a matrix with width 3.
+@GueyeNono R "helpfully" expands vectors/matrices of different lengths (eg, adding 1:6 and 1:3). No warning, so leads to cryptic code flaws.
+Today, more than ever before, I wish there was a way to turn off the recycling rule in #Rstats. @hadleywickham @vsbuffalo #debugginghell
+@sarcozona @mattrweaver That's really bizarre and disgusting.
+.@hadleywickham THANK YOU!
+.@aatishb @ZachWeiner This source corroborates the 12.5 m/s figure...
+.@aatishb @ZachWeiner It's been a while since I've done any physics, but (neglecting air resistance) wouldn't that energy lift it 8 m?
+@duffy_ma: careful! @DATACURATORHULK might try to hug you. #accidentalsmash
+@xieyihui @_inundata I've only had one minor problem that was easy to fix. What problems have you seen?
+Oh right.  Unit tests only help you if you have good coverage.  #oops
+@sarcozona Why not make your own?
+@sarcozona @graydon2 you're pretty fantastic yourself! What's the occasion?
+@ewanbirney @leonidkruglyak @phylogenomics @carlzimmer @SamWangPhD true, but speech paper I just tweeted outperforms on smaller data too.
+.@leonidkruglyak @phylogenomics @carlzimmer @SamWangPhD Or a visual example: 60% as many errors as the runner-up.
+.@leonidkruglyak @phylogenomics @carlzimmer @SamWangPhD it *is* a big deal: goog, msft, and IBM use it for speech now.
+.@StatFact  Giving statisticians credit for deep learning is a very strange thing to do.
+@letterpressapp possible oversight: "underflows" is allowed but "underflowed" isn't.
+@ethanwhite @bendmorris Mac. So it looks like ill need to put in some work for installation and setting up WINE. Still probably worth it.
+@ethanwhite looks fantastic. Maybe I'll switch over. Thanks for putting in the hard work to make such a great tool for reproducible science!
+.@USGS breeding bird data is locked in self-extracting .exe files. Extraction isn't working reliably. Can @DATACURATORHULK help me out?
+@noamross no, just R. Don't worry about it though.  Didn't lose anything.
+@noamross @rstudioapp @RLangTip Nice.  Note that if you try this on a Mountain Lion Mac without X11/XQuartz, it will cause a fatal error.
+@skep_elsie any idea how it happened?
+@MeredithNiles1 shouldn't it specify those tax cuts by name? The vast majority of the tax cuts set to expire don't fall into that category
+@eddelbuettel @mfeathers along the same lines: a license for dodgy academic software.
+@MeredithNiles1 Why does the letter call for extending tax cuts?
+@davidjayharris @rstudioapp Never mind, found the "republish" button.  Thanks for making such a cool service!
+@rstudioapp is it possible to edit #Rstats #RPubs after submission? I just see a button for editing title, description, &amp; URL. Thanks!
+.@marcoarment it may make you feel better to know that raccoons routinely outsmart mammal biologists as well. #baneoftheirexistence
+Code Length Measured in 14 Languages: #Rstats, mathematica, and clojure all do very nicely
+@cityofdavispd were the apartments deadbolted? Any other precautions we can take?
+@_inundata Other options to consider: mailing a hard drive (easier &amp; possibly cheaper than DVDs), Google Drive, or crashplan/backblaze.
+@xieyihui I use @kaleidoscopeapp for diffs on my mac.  It has line wrapping and a few other goodies. I can call it from @gittower too
+Will Saletan makes a surprising amount of sense re: how #GOP could go come to their senses.  via @Dahlialithwick
+@vsbuffalo Well, they are trustworthy...
+@plamere Thanks for making such a neat webapp!  I would happily pay a few bucks for a Mac or iOS version that worked locally.
+@_inundata Good luck!
+#firstworldproblems RT @spolsky think the dog has been stepping on the wifi enabled scale while I'm not at home, messing up my charts.
+Why exactly is #UC spending so much money gambling on interest rates? #UCDavis
+@tpoi Video of the song being performed live:
+@duffy_ma I’ve resolved to name my firstborn “batman” to avoid confusion
+@duffy_ma you should try having my name.
+@noamross Rprof misses a lot of things. Primitives too, I think.
+@noamross @cboettig @vsbuffalo @jaimedash Is it a coincidence that `a` and `b` are all repeats?
+XKCD replies to @StatModeling about frequentists vs. Bayesians
+@ethanwhite Okay, sent to your @weecology address.  I haven't looked at it in years, but I hope it's useful!
+@ethanwhite I have one. It has nothing to do with the work I ended up doing in grad school though. Is it still useful to you?
+. @johnmyleswhite *shrug*
+
+Most of the Bayesian techniques I use have good frequentist properties.
+@KikaTarsi @esa_students Thanks!
+@KikaTarsi @esa_students Is there a way to see that picture in a larger size? I can't read the labels.  Thanks!
+Note to #ucdavis folks: this is a #phishing attack going around. Make sure to warn your less tech-savvy friends!
+@noamross @jaimedash @vsbuffalo @cboettig seems neat but I know nothing about the web
+Poll watching
+Obama won the felid vote as well
+Happy to report that my polling place in #davisca worked smoothly. Heart goes out to voters waiting for hours in OH and FL.
+LA Times on California propositions 35 and 39.
+@vsbuffalo I really should look for evidence of unit testing as well
+@vsbuffalo functionality &amp; various proxies for quality (e.g. Whether I'm familiar with the authors work, documentation, popularity...).
+@sarcozona Don't forget the "experimental software patches" added to Ohio's voting machines at the last minute.
+@ZachWeiner Relevant medical study: 
+
+You're welcome.
+@mbeisen @bradplumer “inject proteins into existing genes”?
+@noamross I looked a while back and didn't find one.  Let me know if you do. I've devinitely stooped to excel and the Rgui editor before...
+Sunrise over Davis
+It's cool seeing people I know on the @DavisWiki.  In related news: @vsbuffalo, I'll probably be seeing your dentist soon.
+Police Chief decided any concern about #policebrutality and #freepress was #spam. Missed a lot of stuff  via @prismatic
+Thanks @hadleywickham, you're pretty great yourself! #testthat #devtools #Rstats
+Does anyone have opinions or information about school board #election and props E and H? I'm a bit lost. @phylogenomics #DavisCA #UCDavis
+.@jaimedash @vsbuffalo @edgeben that said, I'm still voting #NoOn37 because geneticists tell me it's bad &amp; that's a better indicator
+.@vsbuffalo @jaimedash @edgeben Logical fallacies are overrated. Name three controversial policies from Bush that were good ideas.
+It's always a relief when one's model can recover the correct coefficients on a simulated toy dataset #validation
+@noamross Ah, that's it.  Thanks.  I'll look into this later.  Really appreciate your help!
+@noamross Looks great on when I print from your website but terrible when I try it on my own manuscript.  What pandoc flags do you use? Thnx
+Upcoming Supreme Court ruling "could affect the very notion of property ownership in the United States"
+@noamross Hope you're having a good weekend.  Do you know of a good CSS for printable #markdown manuscripts with equations? Thanks!
+@statalgo Yes.  I'm not making this up: @Comcast customer service once redirected me to a @TWC customer service hotline by mistake.
+#Markdown + @MarkedApp have encouraged me to finally upgrade to #LaTex equations.  And the readability features in the app are nice too!
+@lorenb genuinely curious about the slowdowns/errors. Presumably each move is just a few bytes. Is the number of requests just too big?
+This is surprisingly well-writen, even by the high standards at @TheOnion
+@lorenb great game. Any plans to add local multiplayer so I can play with friends over lunch?
+@ethanwhite You had concerns about archival quality of GitHub pages a few weeks ago, right? This may interest you.
+Show that you know what you're talking about. That means being specific about numbers, methods, etc.  @jacquelynGill @ethanwhite #firstgrant
+@CMastication wait, he didn't implode entirely in '06? O_o
+.@mattyglesias @leonidkruglyak Iran might not like letting Egypt and Saudis block off Mediterranean, so Syria might be important #stretch
+@sarcozona ASS is totally a real acronym:  "ASS can be of significance in the real world"; "evidence for ASS"; etc.
+. @sarcozona not sure that makes it any better, though.
+.@sarcozona actually, it looks like a politician that downplayed the risks was also convicted.
+@sarcozona yay!
+@johnmyleswhite apparently that was way overblown.
+@sarcozona hey!
+@noamross well that answers that. Thanks.
+@noamross Currently trying to decide if I should use that word in my paper or if it'll just cause more confusion.
+@hadleywickham why write a new package if it has the same flaws? Fwiw, I use ‘bayesglm’ from arm and also glmnet
+@vsbuffalo  #relevantxkcd
+@sarcozona oops.
+Now we get to find out what iron fertilization will do… #illegalscienceproject  @sarcozona
+More evidence that the @rstudioapp devs are awesome. #Rstats #techsupportfromthefuture
+#Rstats has *another* class system??  I've barely learned S4. @hadleywickham
+@sarcozona check out the development preview of @RStudioapp: it looks like it fixed your issue with zoomed plots.
+My new favorite thing: the preview release of @rstudioapp with Roxygen @hadleywickham's devtools integrated right into the IDE #Rstats
+.@seanmcarroll Eddington says it's 2 * 15747724136275002577605653961181555468044717914527116709366231425076185631031296
+@noamross it was testthat, by @hadleywickham
+.@comcast can't even manage their own SSL certificate.  Yet they expect me to trust them with all my data. Appalling.
+@sarcozona Hope you're having a good week. Would you mind taking a look at my draft at some point? When would be best for you? Thanks.
+@ThomasSowell @JohnDCook That’s pure nonsense. Economics makes tons of incredibly specific assumptions about preferences @johnmyleswhite
+@sarcozona ok, glad it’s not just me.
+@sarcozona When you read Mayo, does she make any sense to you? Her book and blog hurt my brain.
+I have a bug that literally shows up only one in a million function calls.  #frustrating
+.@IE Explorer is already getting plenty of attention already today, thanks to critical unpatched exploits #NoAdsNeeded.
+Katherine Scranton and I tied for the @ESA_org Pielou award for best student stats talk.  Congrats Katherine!  #ESA2012
+@marcoarment Umm... I *haven't* blocked ads, and I'm not seeing an ad from The Deck on my /u page. Shows up on your blog though.
+Is this some kind of joke? 1/4 of Quebec's Syrup Reserves Go Missing  via @prismatic
+Three views of the negative binomial distribution  via @prismatic
+@cboettig @noamross I just kill them from the activity monitor. Have to be careful not to kill RStudio by mistake, though.
+.@sarcozona ivi’s claim that it was a cable system was always kind of laughable. @AereoTV has a better shot at surviving the legal onslaught
+@rOpenSci I had no idea there was an API. This would have saved me so much time!
+@ZachWeiner correction: 2005.
+Ryan on abortion: "Akin should resign, but I can talk about rape without even mentioning that it's, you know, bad."
+@ZachWeiner I judged that debate. It was the final round of the JV division of the Wylie E. Groves invitational in 2006.
+Ryan on abortion exceptions: Rape is just another ‘method of conception’  via @prismatic
+Srsly? Treating students differently when they carry a lethal weapon is illegal "discrimination?" #academicfreedom
+Khan academy's new programming tutorials for kids sound pretty cool...  via @prismatic
+.@eddelbuettel @RLangTip This Rcpp extension looks amazing.  #rstats
+"Naked Darth Vader" is the most bizarre science press release we've ever seen  via @prismatic
+@ethanwhite @esa_org 3 years ago, users definitely chose passwords. I remember being really scared because I had reused it
+@ethanwhite @esa_org just checked my email archive. It was only 3 years. Still way to long.
+@ethanwhite @ESA_org good point, but they blew me off when I brought this up 5 years ago and the vulnerability is pretty well known.
+.@ethanwhite we can agree there. Doesn’t the @ESA_org web page still submit passwords in plaintext in every URL on their conference manager?
+@DistribEcology @ESA_Prez2013 @weecology fair points, but I don’t see why ESA needs to collect data for Twitter, just to save me a click.
+@DistribEcology @ESA_Prez2013 @weecology They let Twitter know what sites you visit &amp; can link info across sites.
+@DistribEcology @ESA_Prez2013 @weecology My view: the Twitter button has privacy implications and it’s not like it’s hard to copy a URL…
+.@noamross The address images probably relate to this data set.  Pretty neat project.
+@IRSnews thinks my investments generated twice as much income in one year as their total value. #IRS #taxes #wtf
+@IRSnews sent me a letter demanding my entire salary in “back taxes” because they can’t tell the difference between proceeds and income #grr
+remarkably bad web design from @PCMag. How am I supposed to follow this tweet from @phylogenomics?
+@carlystrasser I cite photos in 18-point font. Might be too small to read &amp; big enough to distract the audience, though. Worst of both?
+"reserved for blogging! #esa2012
+Your excuse for anything today:
+@sarcozona @andreawiggins Are you familiar with @DATACURATORHULK ? He might have some pointers.
+@CNN just showed me an ad telling me I should sponsor an ad on CNN.  #yodawg #wehavetogodeeper
+@CNN found someone that knows something, but now he's on hold so they can show helicopter footage. 24-hour "news" is weird.
+@CNN coverage of Milwaukee shooting is like a parody of real news. No info about shooter, Sikhism, or anything, but still talking on and on.
+@johnmyleswhite I can totally picture him saying that.  But does it really have more equations than, say, this?
+@MiriamGoldste Ooh, me!  Thanks for organizing this. #ESA2012
+@wesmckinn Oh.  Looks like I might have a development branch. Thanks again.
+@wesmckinn Test gives 15 import errors involving _aswfa_, _dcsrch_,  _f2pywrapdasum_, _gees_, _cfftb_, _dlunc_, and _cbicgrevcom_. sigh.
+@wesmckinn Thanks.  I'll run scipy.test() and see what happens.  Appreciate the help.
+Should I be getting a *huge* number of warnings about self-assignments and  '-mno-fused-madd' when I compile scipy on a mac? @wesmckinn
+I just signed up for Neural Networks for Machine Learning #neuralnets - a free @coursera online class. Join me at
+@johnmyleswhite Richard McElreath: Unfortunately you'll need a password to see the draft of his book. Shall I email him?
+@johnmyleswhite I TA'd for a class that approached that perspective.  Worked pretty well overall.
+The recycling rule in #rstats will kill me someday.
+Geoff Hinton has a fun analogy between his random forest-like "dropout" networks and the evolution of sex
+Geoff Hinton has rediscovered random forests.
+@rstudioapp Any plans to make the keyboard shortcuts user-configurable? @PlanktonMath
+Momentum is an absolutely amazing addition to gradient descent algorithms.  One tiny line of code saves me hours of CPU time.
+@vsbuffalo Thanks. That’s what I figured, but I thought I’d ask. Have a good evening!
+@vsbuffalo Is there a good, portable way to avoid all this NA checking in #RStats' matrix multiplies?
+@CMastication thin plate splines? But be careful of curse of dimensionality with any of these methods. See p. 5 of this
+@JohnDCook Mine got substantially looser after a few days
+@vsbuffalo Awesome!
+@hadleywickham Sounds like it could make fragmentation even worse. What's the upside?
+Hey #apple please keep public transit directions on the iPhone:  via @walkscore
+@leonidkruglyak @GenomeNathan see also: a multisite cross-cultural replication of sentence-free publication:
+@johnmyleswhite sounds nuts. Do you have an example?
+@mbeisen I'd support that.
+@mbeisen what if it was on the back, like "contains nuts and soy?"
+@CliffordTheHutt @mbeisen in particular, what's deceptive?
+@noamross @jaimedash like a type iii functional response?
+@weecology thanks! I'll definitely check out  Sounds like a fantastic resource.
+@weecology I ask because I'm working with the same data set, and for now I'm converting to presence-absence because I'm unsure.
+@weecology How much do you trust BBS abundance data? Seems like it would be hard to get good counts in 3 min.
+@vsbuffalo @jebyrnes As a grad student, I'm not especially knowledgeable about this, but it may play a bigger role in hiring than funding.
+@leonidkruglyak @vsbuffalo Thanks. This helps me think about related issues in statistical ecology.
+@leonidkruglyak Can't candidate gene studies sometimes be useful? How else can you sort through the genome &amp; know where to look? #notmyarea
+A biologist's Mothers' day song @phylogenomics @vsbuffalo
+Is the government trying to look like a parody of itself? That logo is hilarious.  #piracy #unintentionalhumor
+@mbeisen does that mean PLoS could be able to cut prices by 97% soon? What are @RosieRedfield and I missing?
+Apple's security looks weaker every day. Plain-text passwords in logs. 3 months and counting to fix it post discovery.
+Credit where it's due: @bankofamerica quickly and courteously reversed $24 in bogus "maintenance fees" when I called. #customerservice
+@sarcozona "Of course, not all global warming alarmists are murderers or tyrants."  #goodtoknow #heartlandinstitute
+@benjaminbrooks My guess about Microsoft &amp; Nook: Microsoft has patents that would make it more expensive to continue using Android.
+@xieyihui Amazing proof-of-concept! Doesn't quite render properly in Chrome on my Mac, though (text falls off the slides). Want screenshots?
+my lab in the news:
+forgot the link:  @xieyihui @cboettig
+Great ideas on the future of scientific journals from @xieyihui: reproducible documents, automatic typesetting, &amp; fast workflow @cboettig
+@leonidkruglyak seems pretty good to me. One glance tells you creating jobs always wins, climate change always loses,deficit is a wash.
+Is there a word for a group of species with similar abiotic requirements? "Community" and "guild" aren't quite right...
+@JohnDCook that's objectively implausible, right? 10 years ago was pre-XP SP1. Mac's sand boxing and ASLR are imperfect, but they do exist.
+@noamross notes on mixtures:  Also, I think this package will do what I described:
+@noamross what I meant was, I'm not sure prof owns derivative works, although they can definitely sue for infringement.
+@noamross something like the "NOTE" on this page?  Also, pretty sure copyright is *yours* unless you explicitly transfer
+Editors of @wileytweets journal plagiarized swaths of content, then covered it up.  #notokay  @FakeElsevier @fakewiley
+Wish I'd known this sooner: how to pad a vector with NAs up to a fixed length in #rstats #hindsight
+@sarcozona Thanks! I knew they were working on something like this, but now I actually get to see it in action.  Very cool.
+Mac Java applets are now off by default. If "no applets have been run for an extended period of time" they'll turn off again. Makes sense.
+@noamross Twitter won't let me search for your exact problem from a couple months back, but does this solve it?
+The Data Science Venn Diagram
+@jaimedash at best, it shows some kind of leadership failure.
+Correction: there are multiple ways camping *could* be illegal, but the most straightforward one doesn't apply to students. #krollreport
+Reading #krollreport makes me hope I never have to head a real chain of command. I'd probably tend to use consensus too. Bad idea here.
+@jaimedash That's why I used their words instead of jumping to conclusions. Would be interesting to know what they meant...
+It took cops over 30 min to remove arrestees. #krollreport
+The real reason the cops stayed in the circle? Not being surrounded--they just forgot to get enough transport. #krollreport p96
+Pike wanted more engagement from student affairs before police were called in #krollreport p62
+#Katehi lied to #krollreport about her role in eviction notice to students. Documents prove it. P58
+UCDPD lieutenants & chief decided in advance to use weapons they knew they weren't supposed to use #krollreport p55
+I don't think #reynosoreport mentions this, but *only non-campus affiliates are barred from camping.* #krollreport p 29
+None of the pepper spray victims or arrestees talked to #krollreport investigators? (kroll p. 8)
+Lt. Pike was one of the officers that was concerned that afternoon tent removal might not be legal. #interesting #ucdavis #reynoso
+Chief apparently believes "officers will do things their own way and there is nothing she can do about it." #abovethelaw #reynoso #ucdavis
+"no evidence that any UCDPD officer had been trained in the use of the larger MK-9." That much was clear from the video. #ucdavis #reynoso
+"The Pepper Spray Used, the MK-9, First Aerosol Projector, Was Not an Authorized Weapon for Use by the UCDPD" # reynoso #ucdavis
+Officer F successfully moved arrestees out of the circle. #Therewasnowayoutofthatcircle #reynoso #ucdavis
+Why wasn't the police chief at the pre-event briefing?  Wasn't she the only connection between leadership team and UCDPC? #reynoso #ucdavis
+"Lieutenant Pike was not given a role in the Operations Plan." Wait, what?? #reynoso #ucdavis
+"Large portions of the [UCDPD] operations plans were left blank." #ucdavis #reynoso
+"Protesters have a right to be told what laws they are alleged to be breaking," but UCD and UCDPD didn't actually know. #ucdavis #reynoso
+PD wasn't even sure it was legal "to remove tents during the day in order to" prevent overnight camping. #ucdavis #reynoso report
+Kroll couldn't “identify the legal basis for the decision...to act against the protesters and for the operation mounted.” #reynoso #ucavis
+Interesting point: "Katehi, did not realize her statement was both viewed as an 'executive order' and a 'tactical decision'" #Reynoso report
+Page 12 of #reynoso report says the police chief "attempted" to "dissuade" her officers. Chains of command don't work like that. #ucdavis
+@sarcozona I'm giving a presentation in a week or so too; want to practice/discuss/hang out over skype some time?
+@sarcozona I'm not smart enough to do time series analysis.
+This time series thing looks cool. @cboettig @sarcozona @jaimedash @noamross
+Meanwhile, Apple could have prevented 500k malware infections--without restricting users--by just updating Java. @johnmyleswhite @vsbuffalo
+@Mglo good point, but methods police could be full-time job. I'll see if I can fit critique in discussion section. Thanks.
+@vsbuffalo I thought you just got over something. Sounds like a miserable month. Hope you keep getting better. Will I see you at brown bag?
+What to do with a relevant paper if I don't trust methods/results? Don't want to cite uncritically OR spend time critiquing.
+@mbeisen @phylogenomics @BoraZ wouldn't even need multiple sources--all possible works may exist in the digits of pi
+Megaupload's arguments about erasing their data make a surprising amount of sense.
+mac users: don't forget to check for the trojan that's going around.
+The neutral model of scientific inquiry
+@ZachWeiner It's not original ( but maybe you could put a new spin on it
+@cboettig @jaimedash correction: looks like they're merely from his lab.
+@cboettig @jaimedash Looks like this is a different talk, but here are some of his bootstrap slides
+Hm, looks like there's a moderately successful Mac trojan in the wild.  Make sure you downloaded the latest OS updates!
+@johnmyleswhite Not just on track; actually part of the build:
+#julialang now includes the #Rstats C code for distributions, quantiles, random numbers, etc. #FOSS #FTW
+@comcast, where you get 2 bills/mo, each $20 more than promised, and it only takes 10 calls to fix it. Plus a call about double-charging tax
+@jaimedash Oops, should've posted this link instead:  Short version: we're missing 50 yrs of books.
+Infinite Copyright Is Killing Culture (in graph form)
+@TomReller @fakeelsevier Its not about "social media is different," except for PR.  Would have been frivolous legal harassment in 1950, too.
+The animated ads on @pandora_radio have gotten so much more obnoxious that I'm not sure if I should re-subscribe or boycott.
+"calibrated using a Poisson distribution and a logarithmic link function (i.e. logistic regression)." What?
+Oh, I misread something in the press release.  I could totally buy that this could affect costs of sampling the environment. @seanmcarroll
+Cool view of cell membranes as Maxwell's Demon. Relevance to germination may be a stretch, though.  via @seanmcarroll
+@leonidkruglyak I enjoyed Matt Ridley's Genome: The Autobiography of a Species in 23 Chapters.
+@thirstygecko @google @sarcozona I found a chrome extension to fix it, but it's allowed to see everything you do online! #privacy
+Does @ESA_org have a license for #openaccess content? I can't find one online @cboettig @phylogenomics
+Just noticed that #davisca has a "tower" and that it's ~2 stories tall. #adorable
+@rstudioapp fixed my indenting problem &amp; is improving support for sweave, knitr &amp; roxygen.  Awesome. When can we start donating/paying them?
+I think you meant "adults." @KenJennings I'm starting to think babies have no idea what the hell they're even doing.
+"don't use global variables. Also, don't use global variables. In conclusion, I recommend not using global variables."
+The proof is trivial.  Just click here and refresh a few times.  @sarcozona
+wow.  The programmer for EcoSim apparently commercialized the software without Gotelli's consent.
+@phylogenomics Elsevier can't even SAY "open access" without qualifiers: "so-called open access"  via @FakeElsevier
+"The MPAA declined to comment on whether it intends to bring its anti-air capabilities to bear"
+@ZachWeiner My understanding is that it's become much less common in the past 30 years--companies can't figure out how to monetize it.
+Interesting perspective on peer review  via @cboettig
+@StatFact I thought that was only true asymptotically?
+Cities can't block telecoms on health grounds if FCC says they're safe. Not sure how to feel about that...
+Interesting parallel case to closed publishing in science: expensive, copyrighted *laws* @phylogenomics
+@ZachWeiner oh absolutely. No argument there. But I'd argue the definition of "stuff" is subjective in all three cases.
+@ZachWeiner my ontology doesn't really have room for subjects, let alone predicates. I don't think physics has a concept for "object."
+@vsbuffalo sounds awesome, but I'm off campus. Let me know how it goes.
+@sarcozona of course, the phrase "parties involved" begs the question. If the banks foreclosed on my house &amp; had no title, I'd feel involved
+@sarcozona looks like the courts are just approving a corrupt settlement. If the parties involved want to settle, probably not much to do.
+Awesome ode to brewer's yeast @FuSchmu @vsbuffalo @phylogenomics
+This is hilarious. #badscience #ripoff  via @edyong209
+@vsbuffalo In case you haven't seen this course by Efron: looks right up your alley
+Careful! If you click this link in something other than a browser, we've violated the terms of service &gt;.&lt;  @RainyMood
+@progrium @arnabdotorg @sarcozona wonder if Vimeo could just not go to the "particular instant" but still start partway through.
+@noamross @vsbuffalo You can take advantage of geometry for big speedups. This is well-studied
+@vsbuffalo @noamross Based on the gist comment, I think something like this would be much more efficient...
+@vsbuffalo @noamross Tried that.  Only saves a tiny amount...
+@cmastication @vsbuffalo I had figured it was short for "long."
+@noamross any luck with your optimization?
+Is there a gender- and class-neutral way of saying "X is a poor man's Y?" @sarcozona
+@sarcozona on a bus!
+@conansmith @sarcozona I didn't realize that Grapes of Wrath was written about the good old days or that a whole generations went to Paris
+Cool #economist piece on community responses to drugs and crime. Seems way better than our current approach...
+doing computations *inside* list(), so you don't have to spend CPU cycles to copy them there later, if that's the issue. (2/2) @noamross
+If your data are all of the same type, @jaimedash could be right.  Alternatively, you might try (1/2) @noamross
+Just to confirm--you're looking at list's entry in $by.self, not $by.total? @noamross @cboettig
+The periodicity in this graph is hilarious @sarcozona
+This never occurred to me #arcticinvasion
+@sarcozona  “@vsbuffalo: So Twitter, who are some of favorite plant biologists to follow?”
+@vsbuffalo that's what Julia does, right? Seems like a good trade off.
+@vsbuffalo sloppy typing can just be unpredictable. Factors are especially tricky, but data vs. matrix & float vs integer come up too.
+@noamross babies, death, penises, ritual violence, and herpes-- what's not to like?
+@vsbuffalo Very exciting. Also, just spent afternoon debugging a friend's R code & wishing for stronger types like Julia seems to have.
+The Monochrome Stroop effect #fail
+@vsbuffalo sure.
+@FakePLoS @phylogenomics  Findings ( improved by post-publication review:
+@FakeElsevier where should I submit this?
+@sarcozona it's not as bad as it looks, now that I've has some time. The integral just undoes the last line's deriv. But still...
+"of course."
+@DJRyanRussell I walked by this morning and it was a ghost town. Perhaps they're off protesting the delays at Mrak instead.
+@phylogenomics nah, if they were worried about that, they would have filed in November. This is a pretty shameful delaying tactic.
+I'm willing to withhold judgment on the officers involved for another day. But I'm certain the police UNION needs new leadership. #occupyUCD
+UC police association in Nov: no critique w/o report. In Jan: report can't ask us anything. In Mar: you can't see it.
+Genuinely curious--what possible legal rationale could there be for a restraining order? @phylogenomics #UCDPDfail
+What can we so to protest this nonsense tomorrow? #UCFail #OccupyUCD
+This is exactly why the general counsel shouldn't have been involved in a fact-finding process #UCFail
+Why are we paying these clowns' salaries? @phylogenomics
+I guess ornithologists like round numbers!  #data
+kudos to @launchbar for great software and customer service. My problem was already fixed in a nightly and I got a thorough email quickly.
+I'm calling a lot of #RStats functions with argument lists like (a = a, b = b, c = c... ).   Is there a better way? Maybe with environments?
+... and, now it's working. @github.
+I love @github, but I *always* have trouble starting a new repository there.  Best experience yet: "ERROR: Hi! This should never happen."
+@vsbuffalo the French approach to multivariate analysis has always seemed awkward to me, but I'll check it out. Btw, are you around on Sun?
+What exactly is the point of ecological archives if you're not allowed to use the data? @ESA_org
+*grumble* @ESA_org "to use any component of any of these works... requires prior specific permission and possible fee."
+@jaimedash @phylogenomics I got a lot out of reading that back in college. Highly recommended.
+Aarrghh, my mysterious occurring-sometimes-depending-on-my-RNG-seed bug seems to still exist...
+TV Is Broken
+@vsbuffalo also latent, mixture, deep, structured, regression, classification, performance, and data
+@vsbuffalo forgot the link:  @BenjaminBrooks
+@vsbuffalo here's a very thorough and largely positive backpack review I remember skimming once... @BenjaminBrooks
+@sarcozona saw this and thought of you  Via @vsbuffalo
+@vsbuffalo Hope you found your way. LSA/Briggs is one of the few buildings worse than my own (Wickson). Anyway, want to meet on Sunday?
+Too soon to know for sure, but looks like the FTL neutrino data resulted from a loose fiber-optic cable.
+randomization + difficult optimization problems + multithreading yields very annoying bugs...
+Comcast set up two accounts at my address for the same services. There is no local competitor. Time for some good old-fashioned antitrust.
+Jstor won't let me accept their terms and conditions to read a paper on my phone #firstworldproblems #OA
+#Rstats pop quiz: when does max(c(Inf, x)) not return Inf? #biggerthaninfinity
+@portfolioprobe well, maybe a little confused. Thanks again!
+@portfolioprobe I should reread that some time, thanks. Wasn't confused though... just didn't check the class  #rstats
+I'm not sure I'll ever figure out how #RStats handles factors. #fail
+@vsbuffalo not sure why, but that reminds me of the student that used a cell phone camera to transfer a graph from Excel to Paint to Word
+Valentine: microorganisms not drawn to scale.
+@Rcomputing why are you recommending a book with five one-star reviews? #unsubscribe
+@ZachWeiner The most important equation (can equations be NSFW?)
+Excellent valentines comic. For extra nerd points, check out the alt text.
+@vsbuffalo Sounds great.  Enjoy your trip. BTW, my interest in this relates to an ensemble technique called "stacking."
+@vsbuffalo sounds awesome. When works well for you?
+... I could roll my own, but there are problems with what I'd likely try. Thanks! @vsbuffalo @sarcozona @cboettig
+Is there a package/function for binomial GLMs, that constrains all coefficients to be non-negative? @vsbuffalo @sarcozona @cboettig
+@vsbuffalo Did not know that.  Sweet.
+Turns out the music industry is a bunch of dirty pirates.  They even publicly perform pirated work. No lawsuit pending.
+@sarcozona apparently Path sucks
+Apple: "You retain all your rights... when it does not include files in the .ibooks format." Good.
+@sarcozona what happened?
+Gelman: "they employ a charming bit of economics jargon, using the word “earn” to mean “how much money you make.”
+Sweet story about a marriage proposal #happy #lgbt
+Shorter police chief: I won't defend my actions to you, but you should still pay my salary.  #occupyucdavis #occupyca
+Well, it's about time: Oklahoma senator wants to ban human fetuses in food @sarcozona
+@mark_yudof Is this accurate? We were promised that the investigations would have full access.
+If true, this is bullshit: UCD Police apparently refusing to cooperate with investigation. @phylogenomics
+Tech is a tool, but "a hammer doesn’t seduce you into sitting around lonely in your underwear for 6 hours at a stretch"
+@sarcozona At least it didn't interfere with your date?  Feel better soon!
+Krugman: the reader must, of course, be careful not to confuse relative generality with general relativity
+Krugman's First Fundamental Theorem of Interstellar Trade: interest on goods in transit should be based on the common inertial frame
+Krugman: The extension to general relativity is left as an exercise for interested readers because the author does not understand it
+Krugman: "This paper, then, is a serious analysis of a ridiculous subject, which is of course the opposite of what is usual in economics"
+Krugman: we may discover a world to which orthodox economic theory applies... in another solar system.
+Microsoft's awesome text game
+whoops, previous link was supposed to go here:
+Interesting: Apple's trying "to get the lock-in... of a proprietary file format without the proprietary file format."
+ugh. Apple's #EULA for iBooks Author looks like it sucks.
+Nice round-up of what a good alternative to SOPA would involve
+@vsbuffalo could be. 140 characters isn't enough to discuss that. But cheap education was probably a major reason we have silicon valley.
+@vsbuffalo the state was able to do it decades ago when the economy was far smaller. It would probably be far less than, say, our % of DoD
+@jaimedash Ah, now I remember why I was confused.  I wanted something that would work with other binary operators like subtraction as well.
+@jaimedash Thanks. I don't know why I didn't think of that.
+Trivial #RStats question: is there a convenience function for multiplying a vector across a matrix's columns instead of down its rows?
+@phylogenomics presumably the number of papers embargoed by this would be zero, though. And it calls the publishers on their lie.
+proposal: publisher can limit access to any papers where their financial contribution exceeds the government's @phylogenomics
+Vanity Fair's response to #nyt wondering if it should perform stenography for lying politicians or actually report
+3/3 @ESA_org needs to recognize that it only provides a fraction of the last 10% of the work and $$ (peer reviewers work for free).
+2/3 Specifically, @ESA_org does a lot of open-access stuff, doesn't advertise much, and charges lower fees.
+@ESA_org makes some good points in their letter, but claiming to do our analyses for us still rankles.
+@sarcozona Saw this and thought of you
+Wow, @BarackObama and @TheJusticeDept are standing up for Americans' rights for once.
+I have 3 files with changes.  Clicking "Diff Tool" on the first one opens Kaleidoscope.  With the other two, nothing. Any ideas? @gittower
+Ben Stein's latest lawsuit is pretty remarkable. The bit about his likeness is especially funny. via @carlzimmer
+world's smallest known vertebrate. (paper:  pic:
+@phylogenomics wait, so your solution is to give them free publicity?
+@mark_yudof More than half your "tweets" from the last month have been *about your tweets.* Consider dropping the "my week on twitter" stuff
+@sarcozona @ESA_org If they wanted people to read it, they wouldn't be pushing Congress to ban their stuff from PubMed etc.
+@iBiosphere @phylogenomics Under 1976 Copyright Act, everything is copyrighted by default. No copyright notice or registration is needed.
+@tweetbot thanks. Btw, Have you considered something simpler than Head icon, accounts/settings, settings, account settings, notifications?
+@tweetbot any idea why tweet bot isn't showing up in settings under notifications?  Thanks
+@phylogenomics if I want to go to the conference, I'll actually end up putting more money in their coffers if I quit. Maybe I should skip it
+Does @ESA_org believe we'll agree with this nonsense they're spouting? @phylogenomics
+@RLangTip is that really better than PDF?
+@vsbuffalo I don't think so--I think they invented it more recently. Here's the most recent preprint if interested:
+This may be a long shot, but can anyone tell me anything about this #Chinese #ceramic #duck? thx!
+@vsbuffalo Hope you had a good break.  Do you know anything about the group lasso, e.g. the grpreg package or alternatives? Thanks.
+Has anyone else beeng getting a 404 when they try to look at packages on cran lately? #rstats
+@sarcozona that bad, eh?
+Derp. here's the link @sarcozona  @noamross @StatFact
+@noamross @sarcozona You two might like to see this speculative article on tree rings from someone that knows nothing about them @StatFact
+A @USGS breeding bird survey data file (SpeciesList.txt) includes scientific names, but the column is labeled "Spanish_Common_Name". #oops
+Any idea why I can fetch from origin (github) but it doesn't appear as an option for push? Thanks @gittower
+Wow, this sounds exactly like my project.
+@ZachWeiner What's commercial about gold palaces?
+@icouzin WHAT?
+Better article on: cop seems to have executed a man for saying he sucked at darts. I'd say he sucks at his job more.
+Cop apparently executes a dude for saying he sucks at darts
+I don't care if Fibonacci sequences in nature are overblown; ViHart's videos are awesome
+"The badge is the only thing preventing me from skull fucking you"--Said by Seattle PD to *de-escalate* a situation.
+History of Seattle police violence:
+DOJ report: 20% of Seattle PD's uses of force are unconstitutional. 57% of baton uses are unnecessary or excessive.
+... and/or "your tabs and browsing activity?"
+Are there any twitter extensions for Chrome that can't access "your data on all websites?" Sheesh.
+The bufflehead, by contrast, is impossible to take seriously.
+Great horned owls can store a dozen snowshoe hares in their nest. Golden eagles take down caribou & seals.  These birds don't mess around.
+Ooh, Excel has a (simple) data-entry form interface.  My life just got slightly easier.
+@sarcozona Like, say, California.  Hm. Do you have a cite for that? Or a good alternative? Thanks in advance!
+@sarcozona Hope your data exploration is going well! Quick question--your impression of worldclim was mostly positive, correct?
+According to my analysis, California birdwatchers spend over 2% of their time underwater.
+Come on #OccupyUCDavis, this is really disappointing.
+@sarcozona ... and apparently I'm still cleaning my data.  Hope you're making good progress.
+And to make matters worse, copy-pasting " " turns it into " ". #characterencodingssuck
+Did you know that " " is a different character from " "?  It's awesome because they're both invisible. #characterencodingssuck
+If I scrape 15-20 KB from a site every 5 seconds, that shouldn't noticeably affect their servers, right? #tryingnottoddos
+@sarcozona when you said new data was exciting, I was where you are now. Data is a wonderful and terrible thing.
+@sarcozona that's amazing
+@phylogenomics RESPONDING IN BOLD is a nice touch.
+I'd like to hear directly from some of those 13 what happened & was authorized. Wood seemed to imply he was out of the loop. @phylogenomics
+@vsbuffalo Yikes.  Feel better.
+Interesting paper on standardizing variables of mixed types.  I plan to cite this in my next paper.  #stats
+@timoreilly @phylogenomics I like the tax, but I don't get Brin's metaphor. Why are steep price gradients good, as opposed to neutral?
+@phylogenomics someone should total up the health issues caused by the camp over the month vs the pepper spray & handcuffs.
+#regexes are ugly
+
+var = gsub(" *(.*)=.*", "\\1", string)
+truth = gsub(".* is (t).*", "\\1", string) == "t"
+sign = if(truth){"=="}else{"!="}
+Bad news.  But I have to wonder how the case would have turned out if she'd had a lawyer. @jayrosen_nyu @felixsalmon @carlzimmer
+Does anyone know if @mark_yudof's new committee will have the ability to say, "we disagree with the report we were given"? #occupyucdavis
+@rstudioapp On .94.110, rsession forks *sometimes* don't close after job is done. CPUs are idle, but no values are returned. Any ideas? thx.
+@rstudioapp Should R 2.14's parallel mclapply work reliably in v0.94? It sometimes hangs on my mac.
+
+Thanks for writing such a great app!
+Elliot Spitzer on the latest bank/fed scandal
+Jon Stewart had a good night.  This bailout stuff is pretty shocking.
+@vsbuffalo good book
+Epigenetics == orange-flavored money shot?? What were they thinking? @phylogenomics @sarcozona @vsbuffalo
+Is this real?? #sexistscience
+@vsbuffalo also absent: the length of time the cops had to leave before they were surrounded: the circle wasn't closed for several minutes
+@vsbuffalo among the things left out: the ease with which Pike repeatedly enters and leaves the circle.
+@vsbuffalo that can't possibly be complete, since it's shorter than the series of vids I sent you.
+@sarcozona hey, I specifically told you to have a good time at the dentist today!
+@mark_yudof Why can't we move $ around?
+
+Would accountants go to jail if buildings were canceled & the money was spent on students/research?
+@mark_yudof doesn't cite sources, but some of the claims are pretty interesting, if true. Anyone know what debt levels have done since '06?
+for what it's worth: @mark_yudof discusses a bunch of "myths" about UC's economics
+Who are the regents, anyway? #occupyUCDavis
+More info/opinion #OccupyUCDavis
+@phylogenomics Interesting.  Kroll did corporate espionage for Chevron. These two companies are advising Katehi now.
+@phylogenomics: @TheOnion actually anticipated Roll Global (makers of Fiji water); they said the economy should be run by Zico Coconut Water
+@phylogenomics What's up with Bechtel, Roll, Bank of America, and Chevron on that list?  Who thinks they have students' interests in mind?
+@sarcozona ah, ok. Maybe this will go better... Thanks again!
+@sarcozona Thanks! Think I got it. Is .hdf the file format you worked with a few months back? I may ask for more help in a few days...
+@sarcozona Thanks!  Looks like this has it.  Unfortunately, I'm not smart enough to figure out what layers I want :-(
+Conclusion: "Economic efficiency may be a good tool, but it is perverse to serve your own tools"
+Markets "allocated a scarce resource... to its most efficient use, viz., being turned into artificial shit"
+@TWCable_LA coonvinced my 85-year-old grandmother that she needed "all the best" Internet & TV for an extra $70/mo. Thanks guys! #ripoff
+This chart shows how lots of distributions relate to one another. Awesome. @ProbFact
+Interview with guy that weaponized pepper. He's horrified by UCD and confirms police violated protocol. #occupyucd
+This is one impressive dude. #marriageequality #gaymarriage #Iowa
+Anyone know where I can get good data on, say, vegetation type/cover based on lat/long in USA & CA? What about soil/hydrology? @sarcozona
+@sarcozona there's a TeX plugin system called beamer or something that does it automatically.
+Shirt: acquired.
+@wilw Looks like #LAPD handled things well on the ground? On the other hand, how can we trust the media that hid?
+@cboettig @ropensci congratulations!
+@phylogenomics thanks for all the inside info!
+Does anyone know if Twitter reads my cookies?  Within minutes of searching for some USGS data, I get a suggestion to follow USGS. #creepy
+@vsbuffalo tax policy is a big deal & I brought it up at townhall, but democratizing campus etc. matters too. I'd be up to lobby sac.
+@phylogenomics You're probably right. Maybe Ecology's teach-in group can organize a letter to the GA as well...
+@phylogenomics Dutton does a lot of $$ stuff, like collecting tuition, I guess? Probably better to be visible & nondisruptive on quad.
+@vsbuffalo Dutton does lots of money-related things, not just aid....
+“@phylogenomics:   timeline. Wonder why Katehi took three days to say all this to us #OccupyUCD
+Credit where it's due: @mark_yudof finally picked someone likely to stand against police violence #occupyucd
+@phylogenomics this page confirms that general counsel's job description includes defending UC from lawsuits
+@phylogenomics no doubt. But it could still affect the investigation. Is there any reason *not* to kick it up to the AG?
+@phylogenomics last paragraph here says Pike is friends with DA investigators. Don't know if it's true.
+@phylogenomics I've also seen claims that the DA is friends with Pike. If true, we can expect two whitewashes unless the AG gets the case.
+@phylogenomics The other went to great lengths to separate Yoo from the torture he authorized
+@phylogenomics One is UC general counsel--whose *job description *is defending UC when it causes harm or breaks the law.
+@phylogenomics the other 2 folks Yudof picked might be worse: a major conflict of interest and a John Yoo supporter? #nothanks
+Man who weaponized pepper & wrote guidelines says “I have never seen such an inappropriate and improper use" #occupyucd
+@vsbuffalo do you know anything about this? It sounds like it started before you worked with Pike but was ongoing
+More evidence that Pike was both untrained for spraying and unthreatened by the protestors: his visor was up when he sprayed. #occupyucd
+@vsbuffalo: alternatively, maybe protestors weren't warned by Pike--videos have someone screaming to cover up.
+Davis "will pay related immediate medical and emergency bills." What if cops caused lasting respiratory and nerve damage? #occupyucd
+Goddammit, anonymous. Leave Pike alone.
+Damning stuff from the Vanguard on Katehi, Pike, UCDPD, and several of the upcoming investigations.
+This makes it harder to believe she was taken by surprise by all this.
+Interesting revelation from last night: Katehi is supposed to be an expert on campus safety, having advised Greece and the FBI. #OccupyUCD
+@vsbuffalo from my perspective, I'd drop the "really"s, but I agree she's found her voice. I'm looking forward to what she can accomplish.
+@vsbuffalo I don't recall saying that none of them knew, just that I had read claims that some of them didn't. But point taken.
+@vsbuffalo This video starts a few minutes before the cops arrive:
+My letter to Katehi; I want to say this to her tonight.
+@vsbuffalo I saw one going back about 6-8 minutes before.  I'll see if I can track it down.
+@vsbuffalo I guess the idea is that Davis city police would pick up the slack? Personally, I'd be fine with new regs and new leadership.
+People told me katehi's speech was short and weak, but I still wasn't prepared for this  #occupyucd
+Last night, I told my grad representatives I wanted to give #katehi a chance to turn around and lead today. Her interviews changed my mind.
+"@KCBSNews: Two UC Davis police officers have been placed on administrative leave"... Not good enough. The chief needs to resign #occupyucd
+@sarcozona what if he was hiding it in his pa.... Oh.
+I just wanted to say how impressed I've been with the control, civility, and bravery of #occupyucd.
+@VoteHillary2012 actually, they should look much farther than him, starting with his chief of police #occupydavis
+Very volatile.
+Open letter to the chancellor about police brutality on campus
+Our chancellor says this was to protect our safety and to save money #policebrutality
+Wtf, @naturenews? I thought you were a science journal and this was 2011.
+The ad delusion:
+@sarcozona  wow, I finally read up on the scandal this morning... There's basically no way to spin this... They really *were* pro-child rape
+Is this real? If so, oh my god.
+@sarcozona not that it's better to have bad demands than no demands...
+@sarcozona at least they had demands. When MSU rioted over basketball 8-ish years ago, my understanding is that it was just for fun.
+Troxler's fading is trippy:
+@ZachWeiner how exactly did you convince apple that your offensive themes are "infrequent/mild?"
+Apparently google employees have some latitude... Creepy
+Where does Google actually say that they won’t read Gmail messages or Google Docs?
+@vsbuffalo I certainly enjoyed it.
+Bad analogies should be consistent: if public debt is like private debt, police brutality is like beating your kids
+Bayesianism Not Banned in Britain  (via Instapaper)
+Does anyone retweeting this article by @TheOnion worry that they're the ones who should be getting out of the way?
+... And trying to diagnose the problem causes #bsod. #windowsfail
+Let me get this straight. @Microsoft Windows can't use my wi-fi because it doesn't have drivers for adapters made by... Microsoft? #fail
+Book review: ‘Steve Jobs’ by Walter Isaacson | This is my next...  (via Instapaper)
+Inside the Mind of the Octopus  (via Instapaper)
+E. O. Wilson&rsquo;s Theory of Everything - Atlantic Mobile  (via Instapaper)
+Class-participation activities in a regression class « Statistical Modeling, Causal Inference, and Social Science
+@arqbackup keeps sending massive files to S3 every day.  Some of them haven't been modified since 2008.  Any idea what's up?
+Don’t Blink! The Hazards of Confidence -   (via Instapaper)
+Rolling Stone  (via Instapaper)
+This is awesome:
+@bankofamerica Why do I need Flash installed to log in to online banking with "SafePass"? Flash is notoriously insecure. #securityfail
+@sarcozona awesome!!
+Why is British Airways tweeting at me anyway? I thought Twitter was supposed to enable targeted advertising.
+I just saw my first "promoted tweet."  I was so confused, I almost clicked the link.
+@FuSchmu Ann has one she likes
+@vsbuffalo I ha some trouble as well but everything was backed up. Hope you resolve it soon
+@FuSchmu saw this and thought of you. Great seeing you again!
+@FuSchmu Not copyright free, but liberally licensed so you could use it in, e.g., a video:
+@sarcozona ...I read that as no more true *migraines.* I was really confused why the post was about mirages. I knew I was missing something.
+@sarcozona CURED!
+@cboettig I tried spideroak briefly. It wasn't as seamless as dropbox. Let ms know if you find one you really like.
+@sarcozona I vision.
+@nsfabina dice roll. And say so in the footnote. It'll be great
+How does Twitter know I should be following my mom's website?  This is really creepy.
+@sarcozona I saw that plane at the airport before I left! Hope you make it home safe!
+@ZachWeiner It's actually much higher if you don't limit yourself to humans.
+@Cloudnumberscom has 8-thread machines, but they're 50% more expensive than the corresponding @EC2 instances. What am I missing here?
