@@ -12,8 +12,6 @@ Additionally, @noamross thought it would be funny to create [@HarrisBot](https:/
 
 In general, the machine learning titles are harder to distinguish from real titles, but the ecology titles can be much funnier (see below).  Real "creation science" is, of course, indistinguishable for Markov chain output.
 
-The transition matrices are in a [standard format](http://math.nist.gov/MatrixMarket/formats.html#MMformat) as exported by `Matrix::writeMM`.
-
 Praise for Titlebot:
 ====================
 
@@ -44,11 +42,11 @@ replicate(5, generate_title(bigram = ML_bigram))
 ```
 
 ```
-## [1] "directional statistics in infinite latent force models for efficient exact and tracking"
-## [2] "fast convergence analysis of tuned models"                                              
-## [3] "dintucker: scaling up robust support"                                                   
-## [4] "thompson sampling for large-scale svm and observed graphs"                              
-## [5] "generalized canonical dual active collaborative competitive filtering"
+## [1] "structured signal processing with missing data"                             
+## [2] "determining full conditional sparse gradients with distributional estimates"
+## [3] "a new york workshop on grouse and their contextual bandits"                 
+## [4] "randomized kaczmarz algorithm and response data"                            
+## [5] "learning with applications to colombian conflict analysis"
 ```
 
 
@@ -60,11 +58,11 @@ replicate(5, generate_title(bigram = ecology_bigram))
 ```
 
 ```
-## [1] "biodiversity effects of host–pathogen interactions: testing the hermit spiders"          
-## [2] "what are maternal corticosterone levels of sylvatic dengue virus infection in ants"      
-## [3] "nitrogen use of america 500 year-old inca mummy"                                         
-## [4] "fungi that favor ‘gang’ foraging performance but not advance of arabidopsis inbred lines"
-## [5] "influence of functional landscape in social amoeba"
+## [1] "nowhere to predict the composition on population persistence of smart urban environment"                     
+## [2] "two constraints are not infection"                                                                           
+## [3] "randomization modeling of the short-lived annual forb dominated forests"                                     
+## [4] "climate change in the himalaya: water and indigenous burning or increase with the high-throughput sequencing"
+## [5] "radiographs reveal unexpected fine-scale analysis of biodiversity"
 ```
 
 
@@ -76,11 +74,27 @@ replicate(5, generate_title(bigram = answers_bigram))
 ```
 
 ```
-## [1] "an initial estimate toward identifying and the soul"                     
-## [2] "a creationist defense of uluṟu, australia: reply"                        
-## [3] "numerical simulations of human holobaramin"                              
-## [4] "“in-place” fossils by chance"                                            
-## [5] "there a warm ocean: continuous zonal flow, gulf of plasma astronomy 2013"
+## [1] "numerical simulation of peer review of any kind exist before the dodwell hypothesis" 
+## [2] "adam, free choice, and unification theory for studies"                               
+## [3] "numerical simulations of retroviruses"                                               
+## [4] "numerical simulation of precipitation in yellowstone national park with a warm ocean"
+## [5] "more abundant than stars"
+```
+
+
+### davidjayharris
+
+```r
+harris_bigram = load_bigram("davidjayharris")
+replicate(5, generate_title(bigram = harris_bigram))
+```
+
+```
+## [1] "@srsupp you meant to anything today:"                                                                 
+## [2] "@johnmyleswhite does #rstats will take."                                                              
+## [3] "@algaebarnacle @rstudioapp is there a typical to the word in #rstats' matrix multiplies"              
+## [4] "apple could still valuable. we live in daphnia magna. delightful work, documentation, popularity...)."
+## [5] "@kara_woo @algaebarnacle"
 ```
 
 
@@ -92,29 +106,11 @@ replicate(5, generate_title(bigram = woo_bigram))
 ```
 
 ```
-## [1] "@dr_kalmia i need to prep for others, but now i'm all for @cbahlai. if it’s right now i'm really good!"
-## [2] "@cbahlai definitely should!"                                                                           
-## [3] "the impression that this one:"                                                                         
-## [4] "@davidjayharris @recology_ @accidental__art got to eastern wa in is particularly like?"                
-## [5] "$18 for me."
-```
-
-
-
-
-### davidjayharris
-
-```r
-harris_bigram = load_bigram("davidjayharris")
-replicate(5, generate_title(bigram = harris_bigram))
-```
-
-```
-## [1] "ok, thanks. wasn't a summary or take ten emails"                                                       
-## [2] "@ucfagls prior information). freq. optimizes both files to get that logo is different, except for you?"
-## [3] "hm, looks like a2?"                                                                                    
-## [4] ".@zachweiner did you encounter (apart from nearby."                                                    
-## [5] "@kwbroman just cause many of the original matrix, databases could be at the tax"
+## [1] "@alexhanna less of trying to get any reason i get a long, multi-state road trip to was going up on an unrelated note, i'm going to shame."
+## [2] "@polesasunder talk on reaching quadruple-digit tweets."                                                                                   
+## [3] "@queerscientist oh but no sticker to recruit me a lovelier day of negging *shudder*"                                                      
+## [4] "@ansonmackay definitely should!"                                                                                                          
+## [5] "@bashir9ist @markcc @rachelapaul @dr24hours @mbeisen not for an account in ca."
 ```
 
 
