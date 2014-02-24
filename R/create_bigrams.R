@@ -1,7 +1,7 @@
 # path to a text file with one title per row 
 create_bigrams = function(path){
   
-  raw_titles = readLines(path)
+  raw_titles = fix_xml(readLines(path))
   
   # make everything lowercase; drop quote marks
   titles = gsub("\"", "", tolower(raw_titles))
