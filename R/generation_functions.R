@@ -94,5 +94,5 @@ unmention = function(tweet){
 
 # Replace &amp; with &
 fix_and = function(tweet){
-  gsub("&amp", "&", tweet)
+  gsub("&amp;", "&", tweet)
 }
