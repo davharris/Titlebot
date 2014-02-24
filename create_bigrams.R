@@ -42,11 +42,20 @@ get_word_indices = function(i, split_titles, word_list){
   )
 }
 
-for(i in 1:length(split_titles)){
-  indices = get_word_indices(i, split_titles, word_list)
-  for(j in 1:ncol(indices)){
-    m[indices[1, j], indices[2, j]] = m[indices[1, j], indices[2, j]] + 1
+# Transition matrix in long format.
+index.list = lapply(
+  1:length(split_titles),
+  function(i){
+    get_word_indices(i, split_titles, word_list)
   }
+)
+indices = t(do.call(cbind, index.list))
+
+# Transition matrix as actual matrix
+for(i in unique(indices[,1])){
+  rows = indices[ , 1] == i
+  tab = table(indices[rows, 2])
+  m[i, as.integer(names(tab))] = as.integer(tab)
 }
 
 # Probability distribution over title lengths
