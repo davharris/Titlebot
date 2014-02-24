@@ -759,7 +759,7 @@ made
 copies
 one,
 safe
-&gt;.&lt;
+>.&lt;
 @algaegirl328
 community
 college
@@ -3138,7 +3138,7 @@ range
 changing
 increases.
 tree:
-x&gt;2,
+x>2,
 return
 .9;
 .4
@@ -3500,7 +3500,7 @@ hideous
 matlab
 rainbow.
 contours
-&gt;1
+>1
 predictor
 spare
 figure.
