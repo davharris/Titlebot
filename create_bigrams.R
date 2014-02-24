@@ -12,6 +12,8 @@ raw_titles = readLines(paste0("data/", data_filename, ".txt"))
 titles = gsub("\"", "", tolower(raw_titles))
 # Drop double-spaces
 titles = gsub(" +", " ", titles)
+# Drop empty titles
+titles = titles[nchar(titles) > 0]
 
 split_titles = sapply(
   strsplit(titles, " "),
