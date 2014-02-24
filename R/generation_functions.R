@@ -85,3 +85,14 @@ generate_rawstart = function(transition_matrix, word_list, max_words, word){
   }
   paste(word_list[indices[-1]], collapse = " ")
 }
+
+
+# Replace @mentions with ᘓmentions, to eliminate spamming.
+unmention = function(tweet){
+  gsub("@", "ᘓ", tweet)
+}
+
+# Replace &amp; with &
+fix_and = function(tweet){
+  gsub("&amp", "&", tweet)
+}
