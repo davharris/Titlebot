@@ -4,12 +4,14 @@ library(Matrix)
 
 # File name without the directory name and without the .txt at the end
 # e.g. StatMLTitles if the title file exists in data/StatMLTitles.txt
-data_filename = "plos_ecology"
+data_filename = "davidjayharris"
 
 raw_titles = readLines(paste0("data/", data_filename, ".txt"))
 
 # make everything lowercase; drop quote marks
 titles = gsub("\"", "", tolower(raw_titles))
+# Drop double-spaces
+titles = gsub(" +", " ", titles)
 
 split_titles = sapply(
   strsplit(titles, " "),
