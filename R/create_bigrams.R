@@ -1,5 +1,3 @@
-library(stringr)
-
 # path to a text file with one title per row 
 create_bigrams = function(path){
   
