@@ -3,23 +3,14 @@ Titlebot
 
 I string words together from the titles of scientific papers using Markov chains. Each word is sampled based on the probability that it follows the preceding word (i.e. I am a [bigram model](http://en.wikipedia.org/wiki/Bigram)).
 
-So far, I have three Twitter accounts: 
-* [@EcologyTitles](https://twitter.com/EcologyTitles)tweets about ecology
-* [@ML_Titles](https://twitter.com/ML_Titles) tweets about machine learning.
-* [@AnswersInMarkov](https://twitter.com/AnswersInMarkov) tweets about "creation science"
-* [@HarrisBot](https://twitter.com/HarrisBot) will destroy you all.
+So far, I tweet about three kinds of titles: 
+* [@EcologyTitles](https://twitter.com/EcologyTitles) tweets about ecology based on PLOS titles.
+* [@ML_Titles](https://twitter.com/ML_Titles) tweets about machine learning based on ArXiV titles.
+* [@AnswersInMarkov](https://twitter.com/AnswersInMarkov) tweets about "creation science" based on articles published by [Answers in Genesis' "peer-reviewed" "journal"](http://www.answersingenesis.org/arj).
 
-In general, the machine learning titles are harder to distinguish from real titles, but the ecology titles can be much funnier (see below).  Real "Creation science" is indistinguishable for Markov chain output.
+Additionally, @noamross thought it would be funny to create [@HarrisBot](https://twitter.com/HarrisBot), which tweets about whatever @davharris tweets about.
 
-The machine learning titles in the "data" folder were scraped by Philippe (@PhDP) from ArXiv and are available under a Creative Commons Share Alike license (some of them are CC-BY).
-
-The ecology titles were scraped from PLOS journals using [rplos](https://github.com/ropensci/rplos). These titles are all CC-BY.
-
-The Answers titles are copyrighted by Answers In Genesis. Their inclusion and transformation is not an infringement of copyright in the United States, however, as they are covered by the fair use doctrine. 
-
-The HarrisBot data are [@davidjayharrs](https://twitter.com/davidjayharris)'s tweets, minus retweets.
-
-The code is available under The Artistic License 2.0 (see `LICENSE`).
+In general, the machine learning titles are harder to distinguish from real titles, but the ecology titles can be much funnier (see below).  Real "creation science" is, of course, indistinguishable for Markov chain output.
 
 The transition matrices are in a [standard format](http://math.nist.gov/MatrixMarket/formats.html#MMformat) as exported by `Matrix::writeMM`.
 
@@ -44,7 +35,7 @@ Examples
 
 ```{r load_all, echo = FALSE, message = FALSE}
 devtools::load_all()
-set.seed(1)
+set.seed(0)
 ```
 
 ### Machine learning:
@@ -67,6 +58,18 @@ replicate(5, generate_title(bigram = answers_bigram))
 
 ### davidjayharris
 ```{r harrisbot_example}
-answers_bigram = load_bigram("davidjayharris")
-replicate(5, generate_title(bigram = answers_bigram))
+harris_bigram = load_bigram("davidjayharris")
+replicate(5, generate_title(bigram = harris_bigram))
 ```
+
+Licensing
+========
+The code is available under The Artistic License 2.0 (see `LICENSE`).
+
+The machine learning titles in the "data" folder were scraped by Philippe (@PhDP) from ArXiv and are available under a Creative Commons Share Alike license (some of them are CC-BY).
+
+The ecology titles were scraped from PLOS journals using [rplos](https://github.com/ropensci/rplos). These titles are all CC-BY.
+
+The Answers titles are copyrighted by Answers In Genesis. Their inclusion and transformation is not an infringement of copyright in the United States, however, as they are covered by the fair use doctrine. 
+
+The HarrisBot data are [@davidjayharrs](https://twitter.com/davidjayharris)'s tweets, minus retweets. These are hereby released as CC-BY.
