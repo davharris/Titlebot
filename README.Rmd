@@ -8,7 +8,7 @@ So far, I tweet about three kinds of titles:
 * [@ML_Titles](https://twitter.com/ML_Titles) tweets about machine learning based on ArXiV titles.
 * [@AnswersInMarkov](https://twitter.com/AnswersInMarkov) tweets about "creation science" based on articles published by [Answers in Genesis' "peer-reviewed" "journal"](http://www.answersingenesis.org/arj).
 
-Additionally, @noamross thought it would be funny to create [@HarrisBot](https://twitter.com/HarrisBot), which tweets about whatever @davharris tweets about.
+Additionally, @noamross thought it would be funny to create [@HarrisBot](https://twitter.com/HarrisBot), which tweets about whatever [@davidjayharris](https://twitter.com/davidjayharris) tweets about. This repository contains a model based on [@kara_woo](https://twitter.com/kara_woo)'s tweets as well.
 
 In general, the machine learning titles are harder to distinguish from real titles, but the ecology titles can be much funnier (see below).  Real "creation science" is, of course, indistinguishable for Markov chain output.
 
@@ -56,6 +56,14 @@ answers_bigram = load_bigram("Answers_Research_Journal")
 replicate(5, generate_title(bigram = answers_bigram))
 ```
 
+### kara_woo
+```{r woo_example}
+woo_bigram = load_bigram("kara_woo")
+replicate(5, generate_title(bigram = woo_bigram))
+```
+
+
+
 ### davidjayharris
 ```{r harrisbot_example}
 harris_bigram = load_bigram("davidjayharris")
@@ -73,3 +81,5 @@ The ecology titles were scraped from PLOS journals using [rplos](https://github.
 The Answers titles are copyrighted by Answers In Genesis. Their inclusion and transformation is not an infringement of copyright in the United States, however, as they are covered by the fair use doctrine. 
 
 The HarrisBot data are [@davidjayharrs](https://twitter.com/davidjayharris)'s tweets, minus retweets. These are hereby released as CC-BY.
+
+Kara Woo's tweets are used with her permission.

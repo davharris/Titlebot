@@ -8,7 +8,7 @@ So far, I tweet about three kinds of titles:
 * [@ML_Titles](https://twitter.com/ML_Titles) tweets about machine learning based on ArXiV titles.
 * [@AnswersInMarkov](https://twitter.com/AnswersInMarkov) tweets about "creation science" based on articles published by [Answers in Genesis' "peer-reviewed" "journal"](http://www.answersingenesis.org/arj).
 
-Additionally, @noamross thought it would be funny to create [@HarrisBot](https://twitter.com/HarrisBot), which tweets about whatever @davharris tweets about.
+Additionally, @noamross thought it would be funny to create [@HarrisBot](https://twitter.com/HarrisBot), which tweets about whatever [@davidjayharris](https://twitter.com/davidjayharris) tweets about. This repository contains a model based on [@kara_woo](https://twitter.com/kara_woo)'s tweets as well.
 
 In general, the machine learning titles are harder to distinguish from real titles, but the ecology titles can be much funnier (see below).  Real "creation science" is, of course, indistinguishable for Markov chain output.
 
@@ -84,6 +84,24 @@ replicate(5, generate_title(bigram = answers_bigram))
 ```
 
 
+### kara_woo
+
+```r
+woo_bigram = load_bigram("kara_woo")
+replicate(5, generate_title(bigram = woo_bigram))
+```
+
+```
+## [1] "@dr_kalmia i need to prep for others, but now i'm all for @cbahlai. if it’s right now i'm really good!"
+## [2] "@cbahlai definitely should!"                                                                           
+## [3] "the impression that this one:"                                                                         
+## [4] "@davidjayharris @recology_ @accidental__art got to eastern wa in is particularly like?"                
+## [5] "$18 for me."
+```
+
+
+
+
 ### davidjayharris
 
 ```r
@@ -92,11 +110,11 @@ replicate(5, generate_title(bigram = harris_bigram))
 ```
 
 ```
-## [1] "@ucfagls @noamross what differences between keyboard shortcuts)?"                                                                     
-## [2] "@alliebrosh best guess: once in some great sentiment and then i do you too!"                                                          
-## [3] "@cboettig uses templates and me out of court."                                                                                        
-## [4] "@aparnellstats @noamross @_inundata @noamross why does anyone interpret this thing with it?"                                          
-## [5] "morning rt: how you care of a few days ago when tweeting inside @rstudioapp? what we should i think he was even if your comments! :-)"
+## [1] "@kwbroman @phylorich there's an rf can be straightforward to collaborate?"                                                                  
+## [2] "woke up using @cboettig's notation is the methods i've always have occurred at the bottom for writing introduction in your question of this"
+## [3] "@mbeisen as an error. #asn2014"                                                                                                             
+## [4] "@phdpqc very tiny numbers that probably approve it harder, but that old!"                                                                   
+## [5] "@julia_saltz @asnamnat was leaning towards ecological consultants. used should i think @ethanwhite @graham_coop @ethanwhite old lab."
 ```
 
 
@@ -111,3 +129,5 @@ The ecology titles were scraped from PLOS journals using [rplos](https://github.
 The Answers titles are copyrighted by Answers In Genesis. Their inclusion and transformation is not an infringement of copyright in the United States, however, as they are covered by the fair use doctrine. 
 
 The HarrisBot data are [@davidjayharrs](https://twitter.com/davidjayharris)'s tweets, minus retweets. These are hereby released as CC-BY.
+
+Kara Woo's tweets are used with her permission.
