@@ -93,6 +93,8 @@ unmention = function(tweet){
 }
 
 # Replace &amp; with &
-fix_and = function(tweet){
+fix_xml = function(tweet){
   gsub("&amp;", "&", tweet)
+  gsub("&lt;", "<", tweet)
+  gsub("&gt;", ">", tweet)
 }
