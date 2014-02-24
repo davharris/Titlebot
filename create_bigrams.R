@@ -1,4 +1,3 @@
-library(mgcv)
 library(stringr)
 library(Matrix)
 
@@ -65,11 +64,15 @@ for(i in 1:length(length_distribution)){
   length_distribution[i] = sum(observed_lengths == i)
 }
 
-sequence = 1:max(nchar(titles))
-smoothed_length_distribution = predict(
-  gam(length_distribution ~ s(sequence), family = poisson),
-  type = "response"
+length_density = density(
+  observed_lengths, 
+  from = 1, 
+  to = max(observed_lengths), 
+  n = max(observed_lengths),
+  bw = 5
 )
+
+smoothed_length_distribution = length_density$y
 
 
 
