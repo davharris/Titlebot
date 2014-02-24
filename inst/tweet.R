@@ -12,7 +12,7 @@ titleize = function(title) {
 }
 
 # Ecology -----------------------------------------------------------------
-ecology_bigram = load_bigram("plos_ecology")
+ecology_bigram = load_bigram("data/plos_ecology")
 title = generate_title(
   bigram = ecology_bigram,
   n_candidates = 20, 
@@ -31,7 +31,7 @@ if(registerTwitterOAuth(auth)){
 
 # Machine learning --------------------------------------------------------
 
-ML_bigram = load_bigram("StatMLTitles")
+ML_bigram = load_bigram("data/StatMLTitles")
 title = generate_title(
   bigram = ML_bigram,
   n_candidates = 20, 
@@ -50,7 +50,7 @@ if(registerTwitterOAuth(auth)){
 
 # "Creation Science" --------------------------------------------------------
 
-answers_bigram = load_bigram("Answers_Research_Journal")
+answers_bigram = load_bigram("data/Answers_Research_Journal")
 title = generate_title(
   bigram = answers_bigram,
   n_candidates = 20, 

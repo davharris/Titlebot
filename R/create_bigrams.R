@@ -1,10 +1,9 @@
 library(stringr)
 
-# File name without the directory name and without the .txt at the end
-# e.g. StatMLTitles if the title file exists in data/StatMLTitles.txt
-create_bigrams = function(data_filename){
+# path to a text file with one title per row 
+create_bigrams = function(path){
   
-  raw_titles = readLines(paste0("data/", data_filename, ".txt"))
+  raw_titles = readLines(path)
   
   # make everything lowercase; drop quote marks
   titles = gsub("\"", "", tolower(raw_titles))
@@ -47,9 +46,9 @@ create_bigrams = function(data_filename){
   
   
   # save outputs ------------------------------------------------------------
-  
-  dir.create(data_filename, showWarnings = FALSE)
-  write(index, paste0(data_filename, "/index.txt"))
-  write(word_list, paste0(data_filename, "/word_list.txt"))
-  write(smoothed_length_distribution, paste0(data_filename, "/length_distribution.txt"))
+  newpath = gsub("\\.txt", "", path)
+  dir.create(newpath, showWarnings = FALSE)
+  write(index, paste0(newpath, "/index.txt"))
+  write(word_list, paste0(newpath, "/word_list.txt"))
+  write(smoothed_length_distribution, paste0(newpath, "/length_distribution.txt"))
 }

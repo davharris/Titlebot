@@ -37,7 +37,7 @@ Examples
 ### Machine learning:
 
 ```r
-ML_bigram = load_bigram("StatMLTitles")
+ML_bigram = load_bigram("data/StatMLTitles")
 replicate(5, generate_title(bigram = ML_bigram))
 ```
 
@@ -53,7 +53,7 @@ replicate(5, generate_title(bigram = ML_bigram))
 ### Ecology:
 
 ```r
-ecology_bigram = load_bigram("plos_ecology")
+ecology_bigram = load_bigram("data/plos_ecology")
 replicate(5, generate_title(bigram = ecology_bigram))
 ```
 
@@ -69,7 +69,7 @@ replicate(5, generate_title(bigram = ecology_bigram))
 ### Answers Research Journal:
 
 ```r
-answers_bigram = load_bigram("Answers_Research_Journal")
+answers_bigram = load_bigram("data/Answers_Research_Journal")
 replicate(5, generate_title(bigram = answers_bigram))
 ```
 
@@ -85,7 +85,7 @@ replicate(5, generate_title(bigram = answers_bigram))
 ### davidjayharris
 
 ```r
-harris_bigram = load_bigram("davidjayharris")
+harris_bigram = load_bigram("data/davidjayharris")
 replicate(5, generate_title(bigram = harris_bigram))
 ```
 
@@ -101,7 +101,7 @@ replicate(5, generate_title(bigram = harris_bigram))
 ### kara_woo
 
 ```r
-woo_bigram = load_bigram("kara_woo")
+woo_bigram = load_bigram("data/kara_woo")
 replicate(5, generate_title(bigram = woo_bigram))
 ```
 
