@@ -26,15 +26,18 @@ generate_title = function(
   n_candidates = 20, 
   max_length = 140,
   max_words = 100,
-  first_word = "START"
+  first_word = "START",
+  trigram = FALSE
 ){
+  gen_fn = ifelse(trigram, "generate_raw_trigram", "generate_raw")
   candidates = replicate(
-    n_candidates, 
-    generate_raw(
-      index = bigram$index, 
-      word_list = bigram$word_list,
-      max_words = max_words,
-      first_word = first_word
+    n_candidates,
+    do.call(gen_fn, list(
+        index = bigram$index, 
+        word_list = bigram$word_list,
+        max_words = max_words,
+        first_word = first_word
+      )
     )
   )
   valid_candidates = candidates[nchar(candidates) < max_length]
