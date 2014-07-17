@@ -33,7 +33,6 @@ Examples
 
 
 
-
 ### Machine learning:
 
 ```r
@@ -48,7 +47,6 @@ replicate(5, generate_title(bigram = ML_bigram))
 ## [4] "randomized kaczmarz algorithm and response data"                            
 ## [5] "learning with applications to colombian conflict analysis"
 ```
-
 
 ### Ecology:
 
@@ -65,7 +63,6 @@ replicate(5, generate_title(bigram = ecology_bigram))
 ## [5] "radiographs reveal unexpected fine-scale analysis of biodiversity"
 ```
 
-
 ### Answers Research Journal:
 
 ```r
@@ -80,7 +77,6 @@ replicate(5, generate_title(bigram = answers_bigram))
 ## [4] "numerical simulation of precipitation in yellowstone national park with a warm ocean"
 ## [5] "more abundant than stars"
 ```
-
 
 ### davidjayharris
 
@@ -97,7 +93,6 @@ replicate(5, generate_title(bigram = harris_bigram))
 ## [5] "@kara_woo @algaebarnacle"
 ```
 
-
 ### kara_woo
 
 ```r
@@ -111,6 +106,21 @@ replicate(5, generate_title(bigram = woo_bigram))
 ## [3] "@queerscientist oh but no sticker to recruit me a lovelier day of negging *shudder*"                                                      
 ## [4] "@ansonmackay definitely should!"                                                                                                          
 ## [5] "@bashir9ist @markcc @rachelapaul @dr24hours @mbeisen not for an account in ca."
+```
+
+### esa2014_titles
+
+```r
+esa_bigram = load_bigram("data/esa2014_titles")
+replicate(5, generate_title(bigram = esa_bigram))
+```
+
+```
+## [1] "towards a single ungulate during a photo chronosequence"                                                                                   
+## [2] "condos and biogenic substrate heterogeneity for c sequestration potential for avoiding demographic differences among 14 willow and forests"
+## [3] "tree pollination ecotypes"                                                                                                                 
+## [4] "freshwater marshes in eurasian steppe of native forests in the boreal understory and establishment after sucrose amendment?"               
+## [5] "the rocky mountains"
 ```
 
 

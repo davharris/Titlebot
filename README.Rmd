@@ -66,6 +66,13 @@ woo_bigram = load_bigram("data/kara_woo")
 replicate(5, generate_title(bigram = woo_bigram))
 ```
 
+### esa2014_titles
+```{r esa_example}
+esa_bigram = load_bigram("data/esa2014_titles")
+replicate(5, generate_title(bigram = esa_bigram))
+```
+
+
 Licensing
 ========
 The code is available under The Artistic License 2.0 (see `LICENSE`).
